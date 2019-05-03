@@ -66,3 +66,13 @@ deletereview:
     defaults: { _controller: BookReviewBundle:Review:deletereview }
     requirements:
         id: \d+
+
+
+#GOOGLE BOOK STUFF
+books:
+    path:     /books
+    defaults: { _controller: BookReviewBundle:GoogleApi:books }
+
+book:
+    path:     /book
+    defaults: { _controller: BookReviewBundle:GoogleApi:book }
