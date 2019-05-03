@@ -1,0 +1,18 @@
+book_rating_homepage:
+    path:     /{id}
+    defaults: { _controller: BookRatingBundle:Default:index }
+    requirements:
+        id: \d+
+
+book_rating_like:
+    path:     /like/{id}
+    defaults: { _controller: BookRatingBundle:Default:like }
+    requirements:
+        id: \d+
+
+
+book_rating_dislike:
+    path:     /dislike/{id}
+    defaults: { _controller: BookRatingBundle:Default:dislike }
+    requirements:
+        id: \d+

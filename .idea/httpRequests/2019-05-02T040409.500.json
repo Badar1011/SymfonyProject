@@ -1,0 +1,368 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "Some mandatory parameters are missing (\"bookId\", \"reviewId\") to generate a URL for route \"api_book_put_book_reviews\".",
+        "class": "Symfony\\Component\\Routing\\Exception\\MissingMandatoryParametersException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/Routing\/Generator\/UrlGenerator.php",
+            "line": 134,
+            "args": []
+          },
+          {
+            "namespace": "Symfony\\Component\\Routing\\Generator",
+            "short_class": "UrlGenerator",
+            "class": "Symfony\\Component\\Routing\\Generator\\UrlGenerator",
+            "type": "->",
+            "function": "doGenerate",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/var\/cache\/dev\/appDevDebugProjectContainerUrlGenerator.php",
+            "line": 95,
+            "args": [
+              [
+                "array",
+                {
+                  "bookId": [
+                    "integer",
+                    0
+                  ],
+                  "reviewId": [
+                    "integer",
+                    1
+                  ],
+                  "_format": [
+                    "integer",
+                    2
+                  ]
+                }
+              ],
+              [
+                "array",
+                {
+                  "_controller": [
+                    "string",
+                    "Book\\ReviewBundle\\Controller\\BookAPIController::putBookReviewsAction"
+                  ],
+                  "_format": [
+                    "string",
+                    "json"
+                  ]
+                }
+              ],
+              [
+                "array",
+                {
+                  "_format": [
+                    "string",
+                    "json|xml|html"
+                  ]
+                }
+              ],
+              [
+                "array",
+                [
+                  [
+                    "array",
+                    [
+                      [
+                        "string",
+                        "variable"
+                      ],
+                      [
+                        "string",
+                        "."
+                      ],
+                      [
+                        "string",
+                        "json|xml|html"
+                      ],
+                      [
+                        "string",
+                        "_format"
+                      ]
+                    ]
+                  ],
+                  [
+                    "array",
+                    [
+                      [
+                        "string",
+                        "variable"
+                      ],
+                      [
+                        "string",
+                        "\/"
+                      ],
+                      [
+                        "string",
+                        "[^\/\\.]++"
+                      ],
+                      [
+                        "string",
+                        "reviewId"
+                      ]
+                    ]
+                  ],
+                  [
+                    "array",
+                    [
+                      [
+                        "string",
+                        "text"
+                      ],
+                      [
+                        "string",
+                        "\/reviews"
+                      ]
+                    ]
+                  ],
+                  [
+                    "array",
+                    [
+                      [
+                        "string",
+                        "variable"
+                      ],
+                      [
+                        "string",
+                        "\/"
+                      ],
+                      [
+                        "string",
+                        "[^\/]++"
+                      ],
+                      [
+                        "string",
+                        "bookId"
+                      ]
+                    ]
+                  ],
+                  [
+                    "array",
+                    [
+                      [
+                        "string",
+                        "text"
+                      ],
+                      [
+                        "string",
+                        "\/api\/v1\/books"
+                      ]
+                    ]
+                  ]
+                ]
+              ],
+              [
+                "array",
+                {
+                  "id": [
+                    "integer",
+                    101
+                  ]
+                }
+              ],
+              [
+                "string",
+                "api_book_put_book_reviews"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "array",
+                []
+              ],
+              [
+                "array",
+                []
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "appDevDebugProjectContainerUrlGenerator",
+            "class": "appDevDebugProjectContainerUrlGenerator",
+            "type": "->",
+            "function": "generate",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/Routing\/Router.php",
+            "line": 240,
+            "args": [
+              [
+                "string",
+                "api_book_put_book_reviews"
+              ],
+              [
+                "array",
+                {
+                  "id": [
+                    "integer",
+                    101
+                  ]
+                }
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\Routing",
+            "short_class": "Router",
+            "class": "Symfony\\Component\\Routing\\Router",
+            "type": "->",
+            "function": "generate",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Bundle\/FrameworkBundle\/Controller\/ControllerTrait.php",
+            "line": 85,
+            "args": [
+              [
+                "string",
+                "api_book_put_book_reviews"
+              ],
+              [
+                "array",
+                {
+                  "id": [
+                    "integer",
+                    101
+                  ]
+                }
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Bundle\\FrameworkBundle\\Controller",
+            "short_class": "Controller",
+            "class": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+            "type": "->",
+            "function": "generateUrl",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/src\/Book\/ReviewBundle\/Controller\/BookAPIController.php",
+            "line": 442,
+            "args": [
+              [
+                "string",
+                "api_book_put_book_reviews"
+              ],
+              [
+                "array",
+                {
+                  "id": [
+                    "integer",
+                    101
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "namespace": "Book\\ReviewBundle\\Controller",
+            "short_class": "BookAPIController",
+            "class": "Book\\ReviewBundle\\Controller\\BookAPIController",
+            "type": "->",
+            "function": "putBookReviewsAction",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 151,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "string",
+                "63"
+              ],
+              [
+                "string",
+                "101"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 68,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Kernel.php",
+            "line": 200,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php",
+            "line": 29,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "require",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Bundle\/WebServerBundle\/Resources\/router.php",
+            "line": 42,
+            "args": [
+              [
+                "string",
+                "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

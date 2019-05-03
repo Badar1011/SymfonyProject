@@ -1,0 +1,2970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa2b82fd-8321-4ab6-acbc-2bd4459349dc" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stc661@stc661.helios.csesalford.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stc661@stc661.helios.csesalford.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stc661@stc661.helios.csesalford.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="stc661: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stc661@stc661.helios.csesalford.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="stc661: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="book: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="228" column="40" selection-start-line="228" selection-end-line="229" />
+              <folding>
+                <element signature="e#128#162#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
+              <folding>
+                <element signature="e#44#86#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2952">
+              <caret line="173" column="20" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/ReviewType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/serializer/BookReviewBundle/Model.Review.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/RefreshToken.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/RefreshToken.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createForm</find>
+      <find>review</find>
+      <find>form</find>
+      <find>viewbo</find>
+      <find>redir</find>
+      <find>pers</find>
+      <find>red</find>
+      <find>entry</find>
+      <find>blog</find>
+      <find>findOne</find>
+      <find>parago</find>
+      <find>SEC</find>
+      <find>sub</find>
+      <find>this book already exists</find>
+      <find>image</find>
+      <find>user</find>
+      <find>setIma</find>
+      <find>__</find>
+      <find>create</find>
+      <find>@</find>
+      <find>POST</find>
+      <find>fos</find>
+      <find>delete</find>
+      <find>role_st</find>
+      <find>401</find>
+      <find>fos_user</find>
+      <find>bookreviewB</find>
+      <find>BookReviewB</find>
+      <find>defa</find>
+      <find>post</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/vendor/friendsofsymfony</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Security/BookVoter.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Security/LoginFormAuthenticator.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Security/ReviewVoter.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Tests/Controller/BlogControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Tests/Controller/BookReviewControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Tests/Controller/PageControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/BloggerBlogBundle.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/BookReviewBundle.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Entry.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/PageController.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/ReviewController.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/EventListener/RedirectAfterRegistrationSubscriber.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Tests/Controller/ReviewControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Rating.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Form/RatingType.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Repository/RatingRepository.php" />
+        <option value="$PROJECT_DIR$/src/Book/RatingBundle/Form/RatingType.php" />
+        <option value="$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/RatingController.php" />
+        <option value="$PROJECT_DIR$/src/Book/RatingBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/RatingBundle/Repository/RatingRepository.php" />
+        <option value="$PROJECT_DIR$/src/Book/RatingBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Book/RatingBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/Page/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing_api.yml" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Form/ReviewType.php" />
+        <option value="$PROJECT_DIR$/app/serializer/BookReviewBundle/Model.Review.yml" />
+        <option value="$PROJECT_DIR$/app/serializer/FOSUserBundle/Model.User.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Client.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/RefreshToken.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/AccessToken.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/AuthCode.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/editbook.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Security/ClientCreateCommand.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Review.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/symfony/assetic-bundle" />
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/elasticsearch/elasticsearch" />
+      <path value="$PROJECT_DIR$/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/ringphp" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/streams" />
+      <path value="$PROJECT_DIR$/vendor/ruflin/elastica" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/elastica-bundle" />
+      <path value="$PROJECT_DIR$/vendor/blackknight467/star-rating-bundle" />
+      <path value="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/hoa/ustring" />
+      <path value="$PROJECT_DIR$/vendor/hoa/zformat" />
+      <path value="$PROJECT_DIR$/vendor/hoa/exception" />
+      <path value="$PROJECT_DIR$/vendor/hoa/regex" />
+      <path value="$PROJECT_DIR$/vendor/hoa/protocol" />
+      <path value="$PROJECT_DIR$/vendor/hoa/consistency" />
+      <path value="$PROJECT_DIR$/vendor/hoa/iterator" />
+      <path value="$PROJECT_DIR$/vendor/hoa/math" />
+      <path value="$PROJECT_DIR$/vendor/hoa/event" />
+      <path value="$PROJECT_DIR$/vendor/hoa/file" />
+      <path value="$PROJECT_DIR$/vendor/hoa/stream" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/hoa/compiler" />
+      <path value="$PROJECT_DIR$/vendor/hoa/visitor" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/oauth2-php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="274" />
+    <option name="y" value="198" />
+    <option name="width" value="1636" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="serializer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="BookReviewBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="ReviewBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="ReviewBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="ReviewBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="ReviewBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="ReviewBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="BaseRegistrationFormType&#9;null&#9;null&#10;register_content.html.twig&#9;FILE&#9;file:///home/stc661/AdvWeb/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig&#10;register_con&#9;FILE&#9;file:///home/stc661/AdvWeb/symblog/app/Resources/FOSUserBundle/Registration/register_content.html.twig&#10;register_&#9;FILE&#9;file:///home/stc661/AdvWeb/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig&#10;regist&#9;FILE&#9;file:///home/stc661/AdvWeb/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig&#10;bootstrap&#9;FILE&#9;file:///home/stc661/AdvWeb/symblog/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/bootstrap.php&#10;layout.&#9;FILE&#9;file:///home/stc661/AdvWeb/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig&#10;register.html.&#9;FILE&#9;file:///home/stc661/AdvWeb/symblog/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig&#10;entity\user&#9;FILE&#9;file:///home/stc661/AdvWeb/symblog/src/Blogger/BlogBundle/Entity/WorkshopUser.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../roberto_graham-awd_blogger-806580475d9f" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Book/RatingBundle/Repository" />
+      <recent name="$PROJECT_DIR$/src/Book/RatingBundle/Form" />
+      <recent name="$PROJECT_DIR$/src/Book/RatingBundle/Entity" />
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle/Tests/Controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Resources/FOSUserBundle/translations" />
+      <recent name="$PROJECT_DIR$/app/Resources/FOSUserBundle/views" />
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views/Registration" />
+      <recent name="$PROJECT_DIR$/src/Blogger/BlogBundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/app/Resources/views" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/81" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer NWEzMDU1NjdiNzJiNWQzODk2NjFjNzU3ZjM0ZTUxYTgwNmJjMGNjMTg2YTQwN2NlNDNhZWZhOTQyMDI5NWQyOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;user4&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312012312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/81" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer NWEzMDU1NjdiNzJiNWQzODk2NjFjNzU3ZjM0ZTUxYTgwNmJjMGNjMTg2YTQwN2NlNDNhZWZhOTQyMDI5NWQyOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;user4&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/oauth/v2/token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/81" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;user4&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/63/reviews/101" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan1&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghgggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2256bc3b%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A260%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/63/reviews/105" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan1&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghgggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%222ec162%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A260%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/63/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan3&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghgggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%227c38bb%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A260%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/63/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghgggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%227ac503%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A391%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/63/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%227ac503%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A391%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/63/reviews/101" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%227ac503%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A391%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/81/reviews/101" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%227ac503%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A391%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/81/reviews/104" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/81/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1//users/books/81/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;arslan&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/63/reviews/100" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer MmNkOGEzMWZkOWE2ZWJmYmM0M2VlOGViYzhjNWQ4NGRkZjk1YWQ3MGFlM2NkMTA1MDNhMWQ5NjdhMWM3YmYzOA" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/oauth/v2/token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/63/reviews/100" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer YzA0MDJlNzZkMjQ1NGVjZGFmNmZmZWYwM2U5ZjkxNzZlOGYwMTVhMDE1ODM0ZjE5ZTRlNGYzYjFkZWQ4ZDM4MQ" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users//books/63/reviews/100" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer YzA0MDJlNzZkMjQ1NGVjZGFmNmZmZWYwM2U5ZjkxNzZlOGYwMTVhMDE1ODM0ZjE5ZTRlNGYzYjFkZWQ4ZDM4MQ" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/81" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer YzA0MDJlNzZkMjQ1NGVjZGFmNmZmZWYwM2U5ZjkxNzZlOGYwMTVhMDE1ODM0ZjE5ZTRlNGYzYjFkZWQ4ZDM4MQ" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer YzA0MDJlNzZkMjQ1NGVjZGFmNmZmZWYwM2U5ZjkxNzZlOGYwMTVhMDE1ODM0ZjE5ZTRlNGYzYjFkZWQ4ZDM4MQ" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/users/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer YzA0MDJlNzZkMjQ1NGVjZGFmNmZmZWYwM2U5ZjkxNzZlOGYwMTVhMDE1ODM0ZjE5ZTRlNGYzYjFkZWQ4ZDM4MQ" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22b3aaf5%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer NjgyNGQyZjliY2ExMWFlOGQ3YmQxMmQ5ZGQ1MjdmYTgyNGZhMGQ3OGQ4ZDZjODMyNzlkMzI3NTM2NGNhYTJhNw" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;MMM&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22d4c42b%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/82/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer NjgyNGQyZjliY2ExMWFlOGQ3YmQxMmQ5ZGQ1MjdmYTgyNGZhMGQ3OGQ4ZDZjODMyNzlkMzI3NTM2NGNhYTJhNw" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;roQ&quot;,&quot;article&quot;:&quot;gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggdddggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22d4c42b%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/82/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer NjgyNGQyZjliY2ExMWFlOGQ3YmQxMmQ5ZGQ1MjdmYTgyNGZhMGQ3OGQ4ZDZjODMyNzlkMzI3NTM2NGNhYTJhN" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;rob&quot;,&quot;article&quot;:&quot;gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggdddggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22d4c42b%22%2C%22route%22%3A%22api_book_post_user_book_reviews%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A353%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/82/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;rob&quot;,&quot;article&quot;:&quot;gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggdddggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2221d5ab%22%2C%22route%22%3A%22api_book_put_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A405%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/82/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer NjgyNGQyZjliY2ExMWFlOGQ3YmQxMmQ5ZGQ1MjdmYTgyNGZhMGQ3OGQ4ZDZjODMyNzlkMzI3NTM2NGNhYTJhNw" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;rob&quot;,&quot;article&quot;:&quot;gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggdddggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2221d5ab%22%2C%22route%22%3A%22api_book_put_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A405%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/oauth/v2/token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22c2fc29%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/63/reviews/101" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;sabah&quot;,&quot;article&quot;:&quot;gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22c2fc29%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/63/reviews/101" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;sabah&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2295cdcc%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;dasd&quot;,&quot;bookauthor&quot;:&quot;sdfsdf&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55551231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%22f86222%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;dasd&quot;,&quot;bookauthor&quot;:&quot;sdfsdf&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55551231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%222c147a%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;dasd&quot;,&quot;bookauthor&quot;:&quot;sdfsdf&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55551231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%222c147a%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;dasd&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55559231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%222c147a%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/87" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;das&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55559231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%222c147a%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/86" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;das&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55559231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%222c147a%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;das&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55559231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%222c147a%22%2C%22route%22%3A%22api_book_put_book%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putBookAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A412%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55559231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;55559231255&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;11322392312&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;11322312312&quot;,&quot;image&quot;:&quot;1b8e78b815adcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;11322312312&quot;,&quot;image&quot;:&quot;1b8e78b815aac174cdcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;11322312312&quot;,&quot;image&quot;:&quot;web/uploads/images/1b8e78b815aac174cdcdf20538405056.jpeg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;11322312312&quot;,&quot;image&quot;:&quot;1b8e78b815aac174cdcdf20538405056.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;11322312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;zaianab&quot;,&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;bookauthor&quot;:&quot;zainab&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;asd43a&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/users/books/82/reviews" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer YWNmMGJmM2I1YTQ4YWY4YTlkMDFhMDQ1MTRlZjY5Yjk4ODVkN2E4NGVlNzZhMjNhMzNkNjhjNzMwNGExZGUzYg" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;g&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/oauth/v2/token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/82" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer NjY3NWYwYmU1YjZlMmRiOTY1OWE3ZGQyMDM4YWVlYTE3NTMyNjQ2OTQ2YTY1YTEyZTc0ZmQ0Y2MzNzU4OTk0NQ" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;title&quot;:&quot;kava&quot;,&quot;bookauthor&quot;:&quot;arslan&quot;,&quot;summary&quot;:&quot;arslanarslanarslanarslanarslanarslanarslanarslanarslanarslanarslanarslanarslanarslan&quot;,&quot;isbn&quot;:&quot;21234232342&quot;,&quot;image&quot;:&quot;fsadfasdfsad4f34.jpg&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa2b82fd-8321-4ab6-acbc-2bd4459349dc" name="Default" comment="" />
+      <created>1538387626919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538387626919</updated>
+      <workItem from="1538387628840" duration="3298000" />
+      <workItem from="1538754671555" duration="208000" />
+      <workItem from="1538989289792" duration="4433000" />
+      <workItem from="1539595863888" duration="4717000" />
+      <workItem from="1539963232978" duration="1881000" />
+      <workItem from="1540199062405" duration="5138000" />
+      <workItem from="1540212369979" duration="2142000" />
+      <workItem from="1540215906346" duration="974000" />
+      <workItem from="1540218202870" duration="5427000" />
+      <workItem from="1540306433306" duration="559000" />
+      <workItem from="1540310786238" duration="2384000" />
+      <workItem from="1540556438832" duration="1225000" />
+      <workItem from="1540567421183" duration="1797000" />
+      <workItem from="1540806597831" duration="6670000" />
+      <workItem from="1540813287393" duration="78000" />
+      <workItem from="1540813378320" duration="3072000" />
+      <workItem from="1541411366632" duration="6087000" />
+      <workItem from="1542366077919" duration="3429000" />
+      <workItem from="1542372764454" duration="245000" />
+      <workItem from="1542383566559" duration="984000" />
+      <workItem from="1543857604378" duration="4193000" />
+      <workItem from="1543936963125" duration="1070000" />
+      <workItem from="1544103019852" duration="1570000" />
+      <workItem from="1544115377223" duration="599000" />
+      <workItem from="1544116311321" duration="35000" />
+      <workItem from="1544116868790" duration="7000" />
+      <workItem from="1544117269540" duration="31000" />
+      <workItem from="1544117315677" duration="6345000" />
+      <workItem from="1544185974867" duration="3919000" />
+      <workItem from="1544200006425" duration="15266000" />
+      <workItem from="1544382996820" duration="6144000" />
+      <workItem from="1544442580842" duration="4442000" />
+      <workItem from="1544448125092" duration="3555000" />
+      <workItem from="1544529576388" duration="3719000" />
+      <workItem from="1544544003338" duration="1923000" />
+      <workItem from="1544620711758" duration="5655000" />
+      <workItem from="1544629661499" duration="5551000" />
+      <workItem from="1544652049333" duration="3498000" />
+      <workItem from="1544704365181" duration="4090000" />
+      <workItem from="1544714807336" duration="14390000" />
+      <workItem from="1544788009390" duration="8340000" />
+      <workItem from="1544800473402" duration="2654000" />
+      <workItem from="1544805280220" duration="599000" />
+      <workItem from="1544806036525" duration="10520000" />
+      <workItem from="1545046259083" duration="27052000" />
+      <workItem from="1545139266769" duration="741000" />
+      <workItem from="1545140318857" duration="8157000" />
+      <workItem from="1545155486279" duration="4283000" />
+      <workItem from="1545168535102" duration="7548000" />
+      <workItem from="1545230180415" duration="1929000" />
+      <workItem from="1545232240087" duration="5377000" />
+      <workItem from="1545239958193" duration="7968000" />
+      <workItem from="1545250501789" duration="26539000" />
+      <workItem from="1545391855187" duration="11418000" />
+      <workItem from="1545507042795" duration="605000" />
+      <workItem from="1545519582742" duration="21060000" />
+      <workItem from="1545593394728" duration="8443000" />
+      <workItem from="1545651924835" duration="4000" />
+      <workItem from="1545652009675" duration="3031000" />
+      <workItem from="1545655630664" duration="79000" />
+      <workItem from="1545655784148" duration="133000" />
+      <workItem from="1545655937399" duration="58000" />
+      <workItem from="1545664389057" duration="9197000" />
+      <workItem from="1545689882675" duration="791000" />
+      <workItem from="1545695034436" duration="8655000" />
+      <workItem from="1545780232892" duration="15369000" />
+      <workItem from="1545848512332" duration="3878000" />
+      <workItem from="1545919194013" duration="23034000" />
+      <workItem from="1545951637701" duration="4109000" />
+      <workItem from="1546782001182" duration="7593000" />
+      <workItem from="1546789749604" duration="948000" />
+      <workItem from="1546790755560" duration="14735000" />
+      <workItem from="1546812111101" duration="202000" />
+      <workItem from="1546857888824" duration="18260000" />
+      <workItem from="1546883789322" duration="282000" />
+      <workItem from="1546884960619" duration="798000" />
+      <workItem from="1546885786361" duration="216000" />
+      <workItem from="1554987510090" duration="7093000" />
+      <workItem from="1554995298557" duration="4568000" />
+      <workItem from="1555002263389" duration="7200000" />
+      <workItem from="1555015000063" duration="4166000" />
+      <workItem from="1556029395268" duration="8413000" />
+      <workItem from="1556065736523" duration="8413000" />
+      <workItem from="1556135260073" duration="9135000" />
+      <workItem from="1556369062324" duration="647000" />
+      <workItem from="1556568552613" duration="638000" />
+      <workItem from="1556639013854" duration="21597000" />
+      <workItem from="1556735976554" duration="181000" />
+      <workItem from="1556736173794" duration="4037000" />
+      <workItem from="1556740327736" duration="14000" />
+      <workItem from="1556740563096" duration="1318000" />
+      <workItem from="1556794655625" duration="28831000" />
+      <workItem from="1556834413800" duration="8444000" />
+      <workItem from="1556846520678" duration="2786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="522836000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="69" y="25" width="1851" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21163435" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49085873" weight="0.3265086" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49806094" weight="0.46120688" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.46869805" side_tool="true" visible="true" weight="0.36314654" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.5313019" visible="true" weight="0.36314654" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49750692" weight="0.3297414" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="REST Client" order="13" sideWeight="0.70193905" weight="0.33512932" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.25484765" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="103" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing_api.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/Page/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/Page/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/Page/about.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/RegistrationFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/ReviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializer/FOSUserBundle/Model.User.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/View/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="314" column="20" selection-start-line="314" selection-start-column="20" selection-end-line="314" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/editbook.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="e#26#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1393">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/DependencyInjection/BookRatingExtension.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="214" column="37" selection-start-line="214" selection-start-column="37" selection-end-line="214" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+          <folding>
+            <element signature="e#44#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/Post.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Security/LoginFormAuthenticator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Security/ClientCreateCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#132#197#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/AccessToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/AccessToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#45#109#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/AuthCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/AuthCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
+          <folding>
+            <element signature="e#48#100#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#44#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializer/BookReviewBundle/Model.Review.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/RefreshToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/oauth-server-bundle/Entity/RefreshToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="228" column="40" selection-start-line="228" selection-end-line="229" />
+          <folding>
+            <element signature="e#128#162#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
+          <folding>
+            <element signature="e#44#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2952">
+          <caret line="173" column="20" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/ReviewType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

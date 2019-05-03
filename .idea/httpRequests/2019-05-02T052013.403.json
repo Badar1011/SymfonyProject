@@ -1,0 +1,350 @@
+{
+  "error": {
+    "code": 403,
+    "message": "Forbidden",
+    "exception": [
+      {
+        "message": "Access Denied.",
+        "class": "Symfony\\Component\\HttpKernel\\Exception\\AccessDeniedHttpException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/Security\/Http\/Firewall\/ExceptionListener.php",
+            "line": 118,
+            "args": []
+          },
+          {
+            "namespace": "Symfony\\Component\\Security\\Http\\Firewall",
+            "short_class": "ExceptionListener",
+            "class": "Symfony\\Component\\Security\\Http\\Firewall\\ExceptionListener",
+            "type": "->",
+            "function": "handleAccessDeniedException",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/Security\/Http\/Firewall\/ExceptionListener.php",
+            "line": 95,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseForExceptionEvent"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\Security\\Core\\Exception\\AccessDeniedException"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\Security\\Http\\Firewall",
+            "short_class": "ExceptionListener",
+            "class": "Symfony\\Component\\Security\\Http\\Firewall\\ExceptionListener",
+            "type": "->",
+            "function": "onKernelException",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/Debug\/WrappedListener.php",
+            "line": 115,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseForExceptionEvent"
+              ],
+              [
+                "string",
+                "kernel.exception"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher\\Debug",
+            "short_class": "WrappedListener",
+            "class": "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener",
+            "type": "->",
+            "function": "__invoke",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/EventDispatcher.php",
+            "line": 212,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseForExceptionEvent"
+              ],
+              [
+                "string",
+                "kernel.exception"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher",
+            "short_class": "EventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\EventDispatcher",
+            "type": "->",
+            "function": "doDispatch",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/EventDispatcher.php",
+            "line": 44,
+            "args": [
+              [
+                "array",
+                [
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ],
+                  [
+                    "object",
+                    "Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener"
+                  ]
+                ]
+              ],
+              [
+                "string",
+                "kernel.exception"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseForExceptionEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher",
+            "short_class": "EventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\EventDispatcher",
+            "type": "->",
+            "function": "dispatch",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/EventDispatcher\/Debug\/TraceableEventDispatcher.php",
+            "line": 143,
+            "args": [
+              [
+                "string",
+                "kernel.exception"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseForExceptionEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\EventDispatcher\\Debug",
+            "short_class": "TraceableEventDispatcher",
+            "class": "Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher",
+            "type": "->",
+            "function": "dispatch",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 228,
+            "args": [
+              [
+                "string",
+                "kernel.exception"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpKernel\\Event\\GetResponseForExceptionEvent"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleException",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 79,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\Security\\Core\\Exception\\AccessDeniedException"
+              ],
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Kernel.php",
+            "line": 200,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php",
+            "line": 29,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "require",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Bundle\/WebServerBundle\/Resources\/router.php",
+            "line": 42,
+            "args": [
+              [
+                "string",
+                "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "message": "Access Denied.",
+        "class": "Symfony\\Component\\Security\\Core\\Exception\\AccessDeniedException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/src\/Book\/ReviewBundle\/Controller\/BookAPIController.php",
+            "line": 84,
+            "args": []
+          },
+          {
+            "namespace": "Book\\ReviewBundle\\Controller",
+            "short_class": "BookAPIController",
+            "class": "Book\\ReviewBundle\\Controller\\BookAPIController",
+            "type": "->",
+            "function": "postUserBooksAction",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 151,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 68,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Kernel.php",
+            "line": 200,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php",
+            "line": 29,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "require",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Bundle\/WebServerBundle\/Resources\/router.php",
+            "line": 42,
+            "args": [
+              [
+                "string",
+                "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

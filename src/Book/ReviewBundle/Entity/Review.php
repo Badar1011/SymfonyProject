@@ -1,0 +1,263 @@
+<?php
+
+namespace Book\ReviewBundle\Entity;
+
+use Symfony\Component\Validator\Constraints as Assert;
+use Doctrine\ORM\Mapping as ORM;
+use JMS\Serializer\Annotation as JMS;
+
+/**
+ * Review
+ *
+ * @ORM\Table(name="review")
+ * @ORM\Entity(repositoryClass="Book\ReviewBundle\Repository\ReviewRepository")
+ *
+ */
+class Review
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     *
+     */
+    private $id;
+
+    /**
+     * @var string
+     * @Assert\NotBlank(message="please enter the review title")
+     * @Assert\Length(
+     *     min=3,
+     *     max=255,
+     *     minMessage="The title is too short",
+     *     maxMessage="The title is too long."
+     * )
+     * @ORM\Column(name="title", type="string", length=255)
+     */
+    private $title;
+
+    /**
+     * @var string
+     * @Assert\NotBlank(message="please write a review")
+     * @Assert\Length(
+     *     min=10,
+     *     max=300,
+     *     minMessage="The review is too short",
+     *     maxMessage="The review is too long."
+     * )
+     * @ORM\Column(name="article", type="text")
+     */
+    private $article;
+
+
+    /**
+     * @var \DateTime
+     * @Assert\DateTime
+     * @ORM\Column(name="timestamp", type="datetime")
+     */
+    private $timestamp;
+
+    /**
+     * @var \Book\ReviewBundle\Entity\User
+     * @ORM\ManyToOne(targetEntity="Book\ReviewBundle\Entity\User",inversedBy="articles")
+     * @ORM\JoinColumn(name="reviewer", referencedColumnName="id")
+     */
+    private $reviewer;
+
+    /**
+     * @var \Book\ReviewBundle\Entity\Book
+     * @ORM\ManyToOne(targetEntity="Book\ReviewBundle\Entity\Book",inversedBy="reviews")
+     * @ORM\JoinColumn(name="reviewof", referencedColumnName="id")
+     */
+    private $reviewof;
+
+    /**
+     * @var \Doctrine\Common\Collections\ArrayCollection
+     * @ORM\OneToMany(targetEntity="Book\RatingBundle\Entity\Rating",mappedBy="reviewId",cascade="remove")
+     */
+    private $rating;
+
+
+    public function __construct()
+    {
+        $this->rating = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+
+
+    /**
+     * Get id.
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+
+
+
+    /**
+     * Set title.
+     *
+     * @param string $title
+     *
+     * @return Review
+     */
+    public function setTitle($title)
+    {
+        $this->title = $title;
+
+        return $this;
+    }
+
+    /**
+     * Get title.
+     *
+     * @return string
+     */
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    /**
+     * Set article.
+     *
+     * @param string $article
+     *
+     * @return Review
+     */
+    public function setArticle($article)
+    {
+        $this->article = $article;
+
+        return $this;
+    }
+
+    /**
+     * Get article.
+     *
+     * @return string
+     */
+    public function getArticle()
+    {
+        return $this->article;
+    }
+
+    /**
+     * Set timestamp.
+     *
+     * @param \DateTime $timestamp
+     *
+     * @return Review
+     */
+    public function setTimestamp($timestamp)
+    {
+        $this->timestamp = $timestamp;
+
+        return $this;
+    }
+
+    /**
+     * Get timestamp.
+     *
+     * @return \DateTime
+     */
+    public function getTimestamp()
+    {
+        return $this->timestamp;
+    }
+
+    /**
+     * Set reviewer.
+     *
+     * @param \Book\ReviewBundle\Entity\User|null $reviewer
+     *
+     * @return Review
+     */
+    public function setReviewer(\Book\ReviewBundle\Entity\User $reviewer = null)
+    {
+        $this->reviewer = $reviewer;
+
+        return $this;
+    }
+
+    /**
+     * Get reviewer.
+     *
+     * @return \Book\ReviewBundle\Entity\User|null
+     */
+    public function getReviewer()
+    {
+        return $this->reviewer;
+    }
+
+    /**
+     * Set reviewof.
+     *
+     * @param \Book\ReviewBundle\Entity\Book|null $reviewof
+     *
+     * @return Review
+     */
+    public function setReviewof(\Book\ReviewBundle\Entity\Book $reviewof = null)
+    {
+        $this->reviewof = $reviewof;
+
+        return $this;
+    }
+
+    /**
+     * Get reviewof.
+     *
+     * @return \Book\ReviewBundle\Entity\Book|null
+     */
+    public function getReviewof()
+    {
+        return $this->reviewof;
+    }
+
+    public function __toString()
+    {
+        return (string) $this->getArticle();
+    }
+
+    /**
+     * Add rating.
+     *
+     * @param \Book\RatingBundle\Entity\Rating $rating
+     *
+     * @return Review
+     */
+    public function addRating(\Book\RatingBundle\Entity\Rating $rating)
+    {
+        $this->rating[] = $rating;
+
+        return $this;
+    }
+
+    /**
+     * Remove rating.
+     *
+     * @param \Book\RatingBundle\Entity\Rating $rating
+     *
+     * @return boolean TRUE if this collection contained the specified element, FALSE otherwise.
+     */
+    public function removeRating(\Book\RatingBundle\Entity\Rating $rating)
+    {
+        return $this->rating->removeElement($rating);
+    }
+
+    /**
+     * Get rating.
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getRating()
+    {
+        return $this->rating;
+    }
+}

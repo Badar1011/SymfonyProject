@@ -1,0 +1,8 @@
+{#{{ form_start(form) }}
+
+
+    {{ form_widget(form.like, {'attr': {'class': 'btn btn-lg btn-primary', 'value': review.id}}) }}
+    {{ form_widget(form.dislike, {'attr': {'class': 'btn btn-lg btn-primary', 'value': review.id}}) }}
+{{ form_end(form) }}#}
+<a role="button" class="btn btn-primary" href="{{ path('book_rating_like', {'id': review.id}) }}" ><span class="glyphicon glyphicon-thumbs-up"></span>👍{{ like }}</a>
+<a role="button" class="btn btn-primary" href="{{ path('book_rating_dislike', {'id': review.id}) }}" >👎{{ dislike }}</a>

@@ -1,0 +1,5 @@
+Book\ReviewBundle\Model\Review:
+    exclusion_policy: ALL
+    properties :
+        id:
+            expose: true

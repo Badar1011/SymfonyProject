@@ -1,0 +1,12 @@
+{% extends 'BookReviewBundle::layout.html.twig' %}
+
+    {% block title %}BookReviewBundle:BookReview:findbyauthor{% endblock %}
+
+{% block body %}
+
+    <h2>Find books by author</h2>
+    {% for book in books %}
+        <a class="btn navbar-link" href="{{ path('books_by_author',{name: book.bookauthor}) }}">{{ book.bookauthor }}</a><br>
+    {% endfor %}
+{% endblock %}
+

@@ -1,0 +1,68 @@
+
+book_index:
+    path: /
+    defaults: { _controller: BookReviewBundle:Page:index }
+    requirements:
+        _method: GET
+
+book_about:
+    path: /about
+    defaults: { _controller: BookReviewBundle:Page:about }
+    requirements:
+        _method: GET
+
+
+book_contact:
+    path: /contact
+    defaults: { _controller: BookReviewBundle:Page:contact }
+    requirements:
+        _method: GET
+
+viewbook:
+    path:     /viewbook/{id}
+    defaults: { _controller: BookReviewBundle:BookReview:viewbook }
+    requirements:
+        _method: POST
+        id: \d+
+createbook:
+    path:     /createbook
+    defaults: { _controller: BookReviewBundle:BookReview:createbook }
+
+editbook:
+    path:     /editbook/{id}
+    defaults: { _controller: BookReviewBundle:BookReview:editbook }
+    requirements:
+        id: \d+
+
+deletebook:
+    path:     /deletebook/{id}
+    defaults: { _controller: BookReviewBundle:BookReview:deletebook }
+    requirements:
+        id: \d+
+
+
+find_by_author:
+    path:     /findbyauthor
+    defaults: { _controller: BookReviewBundle:BookReview:findbyauthor }
+
+
+books_by_author:
+    path:     /booksbyauthor/{name}
+    defaults: { _controller: BookReviewBundle:BookReview:booksbyauthor }
+
+
+createreview:
+    path:     /createreview/{id}
+    defaults: { _controller: BookReviewBundle:Review:createreview }
+    requirements:
+        id: \d+
+editreview:
+    path:     /editreview/{id}
+    defaults: { _controller: BookReviewBundle:Review:editreview }
+    requirements:
+        id: \d+
+deletereview:
+    path:     /deletereview/{id}
+    defaults: { _controller: BookReviewBundle:Review:deletereview }
+    requirements:
+        id: \d+

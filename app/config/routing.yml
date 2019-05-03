@@ -1,0 +1,32 @@
+book_review:
+    resource: "@BookReviewBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+book_rating:
+    resource: "@BookRatingBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+easy_admin_bundle:
+    resource: "@EasyAdminBundle/Controller/"
+    type: annotation
+    prefix: /easyadmin
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+book_api:
+    type: rest
+    resource: "@BookReviewBundle/Resources/config/routing_api.yml"
+    prefix: /api/v1
+
+fos_oauth_server_token:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+
+fos_oauth_server_authorize:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"

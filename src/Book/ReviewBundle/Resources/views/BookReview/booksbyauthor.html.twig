@@ -1,0 +1,30 @@
+{% extends 'BookReviewBundle::layout.html.twig' %}
+
+    {% block title %}BookReviewBundle:BookReview:booksbyauthor{% endblock %}
+
+{% block body %}
+
+<h2>Books by {{ books| first.bookauthor }}</h2>
+
+    <div class="row">
+        {% for book in books %}
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card" style="margin-top: 30px; margin-bottom: 20px; background-color: whitesmoke" >
+                    <div class="thumbnail" style="padding-top: 40px; padding-left: 25px; padding-right: 25px; padding-bottom: 10px">
+                        <img class="card-img-top round" width="260px" height="370px" src="{{ asset('uploads/images/' ~ book.image) }}" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 style="font-family:'Lato'; font-weight: 400;font-size: 24px;"><a href="{{ path('viewbook',{id : book.id}) }}">{{ book.title | title }}</a></h5>
+                            <h6 style="font-family:'Lato'; font-weight: 400;font-size: 20px;">by: {{ book.bookauthor }}</h6>
+                            <a class="btn btn-primary" href="{{ path('viewbook',{id : book.id}) }}" style="margin-top: 30px; display: block; margin-left: auto; margin-right: auto" role="button">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            {{ knp_pagination_render(books) }}
+        </ul>
+    </nav>
+{% endblock %}

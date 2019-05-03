@@ -1,0 +1,38 @@
+{% extends 'BookReviewBundle::layout.html.twig' %}
+
+
+{% block title %}BookReviewBundle:BookReview:editbook{% endblock %}
+
+{% block body %}
+    {{ form_start(form) }}
+    <h1>Edit a Book</h1>
+    <div class="form-group">
+        {{ form_label(form.title, 'Enter the Book Title',{'attr': {'for': 'title'}}) }}
+        {{ form_widget(form.title, {'attr': {'class': 'form-control input-lg', 'id': 'title', 'placeholder': 'Enter the Book Title', 'required': 'required'}}) }}
+        <small id="titleHelp" class="form-text text-muted">{{ form_errors(form.title) }}</small>
+    </div>
+    <div class="form-group">
+        {{ form_label(form.bookauthor, 'Enter the Book Author',{'attr': {'for': 'author'}}) }}
+        {{ form_widget(form.bookauthor, {'attr': {'class': 'form-control input-lg', 'id': 'author', 'placeholder': 'Enter the Book Author', 'required': 'required'}}) }}
+        <small id="authorHelp" class="form-text text-muted">{{ form_errors(form.bookauthor) }}</small>
+    </div>
+    <div class="form-group">
+        {{ form_label(form.summary, 'Enter the summary',{'attr': {'for': 'summary'}}) }}
+        {{ form_widget(form.summary, {'attr': {'class': 'form-control input-lg', 'maxlength': '500', 'id': 'summary', 'placeholder': 'Enter the Book summary', 'required': 'required'}}) }}
+        <small id="summaryHelp" class="form-text text-muted">{{ form_errors(form.summary) }}</small>
+    </div>
+    <div class="form-group">
+        {{ form_label(form.isbn, 'Enter the ISBN number',{'attr': {'for': 'isbn'}}) }}
+        {{ form_widget(form.isbn, {'attr': {'class': 'form-control input-lg', 'id': 'isbn', 'placeholder': 'Enter the ISBN number', 'required': 'required'}}) }}
+        <small id="isbnHelp" class="form-text text-muted">{{ form_errors(form.isbn) }}</small>
+    </div>
+    <div class="form-group">
+        {{ form_label(form.image, 'Enter an image',{'attr': {'for': 'image'}}) }}
+        {{ form_widget(form.image, {'attr': {'class': 'form-control input-lg', 'id': 'image', 'placeholder': 'Enter an image', 'required': 'required'}}) }}
+        <small id="imageHelp" class="form-text text-muted">{{ form_errors(form.image) }}</small>
+    </div>
+   {# {{ form_widget(form.submit, {'attr': {'class': 'btn btn-lg btn-primary'}}) }}#}
+    <a class="btn btn-lg btn-primary" role="button" type="submit" href="{{ path('api_book_put_book',{id: book.id}) }}">submit2</a>
+    <a class="btn btn-lg btn-primary" role="button" href="{{ path('deletebook',{id: book.id}) }}">delete</a>
+    {{ form_end(form) }}
+{% endblock %}

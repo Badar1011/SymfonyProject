@@ -1,0 +1,170 @@
+{# app/Resources/views/base.html.twig #}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}BookReviewer{% endblock %} - Review</title>
+
+    {% block stylesheets %}
+      {% stylesheets
+            'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'
+            '../app/Resources/public/css/screen.css'
+            %}
+            <link href="{{ asset_url }}" type="text/css" rel="stylesheet"/>
+      {% endstylesheets %}
+    {% endblock %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    {% block javascript %}
+        {% javascripts
+            'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'
+        %}
+            <script src="{{ asset_url }}"></script>
+            <script type="text/javascript" src="{{ asset_url }}"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        {% endjavascripts %}
+    {% endblock %}
+
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+</head>
+<body>
+<div class="container">
+   {# <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Reviewer</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="{{ path('blogger_index') }}">Home</a></li>
+                        <li><a href="{{ path('blogger_about') }}">About</a></li>
+                        <li><a href="{{ path('blogger_contact') }}">Contact</a></li>
+
+                        {% if is_granted('ROLE_USER') %}
+                            <li><a href="{{ path('fos_user_profile_show') }}">Profile</a></li>
+                            <li><a href="{{ path('fos_user_security_logout') }}">Logout</a></li>
+                        {% else %}
+                            <li><a href="{{ path('fos_user_registration_register') }}">Register</a></li>
+                            <li><a href="{{ path('fos_user_security_login') }}">Login</a></li>
+
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+#}
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BookReviews</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('book_index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('find_by_author') }}">Find by author</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('book_about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('book_contact') }}">Contact</a>
+                </li>
+                {% if is_granted('ROLE_ADMIN') %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('easyadmin') }}">Admin</a>
+                    </li>
+                {% endif %}
+                <!-- CHANGE THIS ROLE_USER TO ROLE_LATER ON -->
+                {% if is_granted('ROLE_STAFF') or is_granted('ROLE_ADMIN') %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('createbook') }}">Add a book</a>
+                </li>
+                {% endif %}
+                {% if is_granted('ROLE_USER') %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('fos_user_profile_show') }}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('fos_user_security_logout') }}">Logout</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('fos_user_registration_register') }}">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('fos_user_security_login') }}">Login</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         {#   {% for message in app.flashes('success') %}
+                <div class="alert alert-success">
+                    {{ message }}
+                </div>
+            {% endfor %}
+            {% for message in app.flashes('warning') %}
+                <div class="alert alert-success">
+                    {{ message }}
+                </div>
+            {% endfor %}#}
+
+
+        <div class="col-md-12">
+                {% for label, messages in app.flashes %}
+                    {% for message in messages %}
+                        <div class="alert alert-{{ label }} app-flash">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+        </div>
+    {% block sidebar %}{% endblock %}
+            {% block body %}
+
+            {% endblock %}
+
+    <div class="footer">
+        {% block footer %}
+            {#<p>Symfony blog tutorial</p>#}
+        {% endblock %}
+    </div>
+</div>
+
+</body>
+</html>

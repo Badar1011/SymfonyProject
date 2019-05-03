@@ -1,0 +1,35 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+{{ form_start(form, { 'action': path('fos_user_profile_edit'), 'attr': { 'class': 'fos_user_profile_edit' } }) }}
+
+
+<div class="form-group">
+    {{ form_label(form.email, 'Enter your email',{'attr': {'for': 'email'}}) }}
+    {{ form_widget(form.email, {'attr': {'class': 'form-control input-lg', 'id': 'email', 'placeholder': 'email@gmail.com', 'required': 'required'}}) }}
+    <small id="emailHelp" class="form-text text-muted">{{ form_errors(form.email) }}</small>
+</div>
+<div class="form-group">
+    {{ form_label(form.current_password, 'Enter your current password',{'attr': {'for': 'password'}}) }}
+    {{ form_widget(form.current_password, {'attr': {'class': 'form-control input-lg', 'id': 'password', 'required': 'required'}}) }}
+    <small id="passwordHelp" class="form-text text-muted">{{ form_errors(form.current_password) }}</small>
+</div>
+
+<div class="form-group">
+    {{ form_label(form.username, 'Enter your username',{'attr': {'for': 'username'}}) }}
+    {{ form_widget(form.username, {'attr': {'class': 'form-control input-lg', 'id': 'username', 'required': 'required'}}) }}
+    <small id="passwordHelp" class="form-text text-muted">{{ form_errors(form.username) }}</small>
+</div>
+
+
+
+
+
+
+
+<div>
+        <input type="submit" class="btn btn-primary" value="{{ 'profile.edit.submit'|trans }}" />
+        <a class="btn btn-primary" href="{{ path('fos_user_change_password') }}" >Change password</a>
+    </div>
+
+{{ form_widget(form.username, {'attr': {'input': 'hidden' }}) }}
+{{ form_end(form) }}

@@ -1,0 +1,68 @@
+
+{% extends 'BookReviewBundle::layout.html.twig' %}
+
+
+{% block title %}{{ book.title }}{% endblock %}
+
+{% block body %}
+
+    <section class="section section-lg bg-default">
+        <div class="container container-bigger product-single">
+            <div class="row row-fix justify-content-sm-center justify-content-lg-between row-30 align-items-lg-center">
+                <div class="col-lg-5 col-xl-6 col-xxl-5">
+                    <img width="400px" height="600px" style=" display: block; margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto;" class="img-thumbnail rounded" src="{{ asset('uploads/images/' ~ book.image)  }}" alt="">
+                </div>
+                <div class="col-lg-7 col-xl-6 col-xxl-6 text-center text-lg-left">
+
+                    <h3 style="font-family:'Lato'; font-weight: 400;font-size: 28px;"><b>{{ book.title }}</b></h3>
+                    <div class="divider divider-default"></div>
+                    <p class="text-spacing-sm" style="font-size: 16px" >{{ book.summary|nl2br }}</p>
+                    <ul class="list-group" style="font-family:'Lato';  margin-top: 35px; margin-bottom: 20px; font-weight: 400;font-size: 19px;">
+                        <li class="list-group-item">Author: {{ book.bookauthor }}</li>
+                        <li class="list-group-item">ISBN: {{ book.isbn }}</li>
+                        <li class="list-group-item">Posted: {{ book.timestamp|date('H:i d/m/y') }}</li>
+                        <li class="list-group-item">Added by: {{ book.publisher }}</li>
+
+                    </ul>
+                    <div style="padding-bottom: 20px;">
+                    {% if is_granted('ROLE_USER') %}
+                        <a class="btn btn-primary" href="{{ path('createreview',{'id':book.id}) }}">write a review</a>
+                    {% endif %}
+
+                        {% if (is_granted('edit', book)) %}
+                    <a class="btn btn-secondary" href="{{ path('editbook',{'id':book.id}) }}">edit details</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% for review in reviews %}
+        <div class="card round" style="margin-top: 20px; margin-bottom: 15px;">
+            <div class="card-body round">
+                <h5 class="card-title">{{ review.title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">by: {{ review.reviewer }}</h6>
+                <article><p class="card-text">{{ review.article }}</p></article>
+                <h6 class="card-subtitle mb-2 text-muted" style="margin-top: 10px;">posted at: {{ review.timestamp|date('H:i d/m/y') }}</h6>
+                {% if (is_granted('edit', review)) %}
+                <a href="{{ path('editreview',{'id':review.id}) }}" class="card-link">edit review</a>
+                {% endif %}
+                {% if (is_granted('delete', review)) %}
+                <a href="{{ path('deletereview',{'id':review.id}) }}" class="card-link">delete review</a>
+                {% endif %}
+                {{ render(controller(
+                    'BookRatingBundle:Default:index', {'id': review }
+                )) }}
+
+            </div>
+        </div>
+    {% endfor %}
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            {{ knp_pagination_render(reviews) }}
+        </ul>
+    </nav>
+
+
+{% endblock %}

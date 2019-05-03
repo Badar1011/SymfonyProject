@@ -1,0 +1,19 @@
+{% extends 'BookReviewBundle::layout.html.twig' %}
+{% block title %}Write a review{% endblock %}
+{% block body %}
+<h1>write a review</h1>
+        {{ form_start(form) }}
+        <div class="form-group">
+            {{ form_label(form.title, 'Enter the Title',{'attr': {'for': 'title'}}) }}
+            {{ form_widget(form.title, {'attr': {'class': 'form-control input-lg', 'id': 'title', 'placeholder': 'Enter the Review Title', 'required': 'required'}}) }}
+            <small id="titleHelp" class="form-text text-muted">{{ form_errors(form.title) }}</small>
+        </div>
+        <div class="form-group">
+            {{ form_label(form.article, 'Enter the review',{'attr': {'for': 'review'}}) }}
+            {{ form_widget(form.article, {'attr': {'class': 'form-control input-lg', 'id': 'review', 'placeholder': 'Enter the Review', 'required': 'required'}}) }}
+            <small id="articleHelp" class="form-text text-muted">{{ form_errors(form.article) }}</small>
+        </div>
+
+        {{ form_widget(form.submit, {'attr': {'class': 'btn btn-lg btn-primary'}}) }}
+        {{ form_end(form) }}
+{% endblock %}

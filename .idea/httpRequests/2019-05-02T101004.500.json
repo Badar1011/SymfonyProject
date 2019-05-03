@@ -1,0 +1,152 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "Controller \"Book\\ReviewBundle\\Controller\\BookAPIController::putUserBookAction()\" requires that you provide a value for the \"$id\" argument. Either the argument is nullable and no null value has been provided, no default value has been provided or because there is a non optional argument after this one.",
+        "class": "RuntimeException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Controller\/ArgumentResolver.php",
+            "line": 78,
+            "args": []
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel\\Controller",
+            "short_class": "ArgumentResolver",
+            "class": "Symfony\\Component\\HttpKernel\\Controller\\ArgumentResolver",
+            "type": "->",
+            "function": "getArguments",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Controller\/TraceableArgumentResolver.php",
+            "line": 38,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "array",
+                [
+                  [
+                    "object",
+                    "Book\\ReviewBundle\\Controller\\BookAPIController"
+                  ],
+                  [
+                    "string",
+                    "putUserBookAction"
+                  ]
+                ]
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel\\Controller",
+            "short_class": "TraceableArgumentResolver",
+            "class": "Symfony\\Component\\HttpKernel\\Controller\\TraceableArgumentResolver",
+            "type": "->",
+            "function": "getArguments",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 143,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "array",
+                [
+                  [
+                    "object",
+                    "Book\\ReviewBundle\\Controller\\BookAPIController"
+                  ],
+                  [
+                    "string",
+                    "putUserBookAction"
+                  ]
+                ]
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 68,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Kernel.php",
+            "line": 200,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php",
+            "line": 29,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "require",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Bundle\/WebServerBundle\/Resources\/router.php",
+            "line": 42,
+            "args": [
+              [
+                "string",
+                "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
