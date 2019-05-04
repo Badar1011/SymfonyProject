@@ -81,3 +81,8 @@ book:
 books_pagination:
     path:     /books/{page}
     defaults: { _controller: BookReviewBundle:GoogleApi:bookPagination }
+
+
+adding_google_book:
+    path:     /adding/book/{id}
+    defaults: { _controller: BookReviewBundle:GoogleApi:addingBook }

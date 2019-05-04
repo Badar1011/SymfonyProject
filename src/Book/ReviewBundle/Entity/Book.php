@@ -55,7 +55,7 @@ class Book
      * @Assert\NotBlank(message="please write a summary of the book")
      * @Assert\Length(
      *     min=50,
-     *     max=500,
+     *     max=2000,
      *     minMessage="The summary is too short",
      *     maxMessage="The sumary is too long."
      * )
@@ -68,7 +68,7 @@ class Book
      * @Assert\NotBlank(message="please enter the book isbn number")
      * @Assert\Length(
      *     min=10,
-     *     max=15,
+     *     max=21,
      *     minMessage="The number is too short",
      *     maxMessage="The number is too long."
      * )

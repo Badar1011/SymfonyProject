@@ -20,7 +20,7 @@ class BookType extends AbstractType
             ->add('bookauthor')
             ->add('summary')
             ->add('isbn')
-            ->add('image',FileType::class,array('label' => 'Select an image'))
+            ->add('image',FileType::class,array('label' => 'Select an image', 'data_class' => null))
             ->add('submit',SubmitType::class);
     }
 

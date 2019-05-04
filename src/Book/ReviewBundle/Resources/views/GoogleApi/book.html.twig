@@ -61,6 +61,11 @@
                             {% endif %}
 
                         </ul>
+                        <div style="padding-bottom: 20px;">
+                            {% if is_granted('ROLE_STAFF') or is_granted('ROLE_ADMIN') %}
+                                <a class="btn btn-primary" href="{{ path('adding_google_book',{'id':book.id}) }}">Add this to library</a>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>

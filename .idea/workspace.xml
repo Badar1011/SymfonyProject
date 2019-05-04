@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2b82fd-8321-4ab6-acbc-2bd4459349dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Service/GoogleBook.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig" afterDir="false" />
     </list>
@@ -62,13 +64,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
               <folding>
-                <element signature="e#48#70#0#PHP" expanded="true" />
+                <element signature="e#48#82#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+              <folding>
+                <element signature="e#44#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="132" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="224" selection-start-line="224" selection-end-line="224" />
+              <folding>
+                <element signature="e#128#162#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,29 +130,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding>
-                <element signature="e#646#748#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/Page/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="139" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="139" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
               <folding>
                 <element signature="e#358#446#0#HTML" expanded="true" />
                 <element signature="e#481#583#0#HTML" expanded="true" />
@@ -109,20 +150,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Repository/BookRepository.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Repository/UserRepository.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="194">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#48#100#0#PHP" expanded="true" />
               </folding>
@@ -131,35 +162,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="306">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing_api.yml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>review</find>
-      <find>form</find>
-      <find>viewbo</find>
       <find>redir</find>
       <find>pers</find>
       <find>red</find>
@@ -170,7 +184,6 @@
       <find>SEC</find>
       <find>sub</find>
       <find>this book already exists</find>
-      <find>image</find>
       <find>user</find>
       <find>setIma</find>
       <find>__</find>
@@ -187,6 +200,10 @@
       <find>defa</find>
       <find>post</find>
       <find>descr</find>
+      <find>id</find>
+      <find>sum</find>
+      <find>imag</find>
+      <find>image</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/friendsofsymfony</dir>
@@ -198,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Tests/Controller/BookReviewControllerTest.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Tests/Controller/PageControllerTest.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/BloggerBlogBundle.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/BookReviewBundle.php" />
@@ -214,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/RatingController.php" />
         <option value="$PROJECT_DIR$/src/Book/RatingBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig" />
         <option value="$PROJECT_DIR$/src/Book/RatingBundle/Repository/RatingRepository.php" />
         <option value="$PROJECT_DIR$/src/Book/RatingBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/Book/RatingBundle/Resources/views/Default/index.html.twig" />
@@ -232,10 +247,7 @@
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/AccessToken.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/AuthCode.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/editbook.html.twig" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Security/ClientCreateCommand.php" />
@@ -244,11 +256,16 @@
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Review.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" />
       </list>
     </option>
   </component>
@@ -340,9 +357,9 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="235" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="291" />
+    <option name="y" value="196" />
     <option name="width" value="1626" />
     <option name="height" value="789" />
   </component>
@@ -429,6 +446,14 @@
               <item name="Book" type="462c0819:PsiDirectoryNode" />
               <item name="ReviewBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="ReviewBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
@@ -2615,12 +2640,12 @@
       <workItem from="1556834413800" duration="8444000" />
       <workItem from="1556846520678" duration="7283000" />
       <workItem from="1556894154188" duration="2052000" />
-      <workItem from="1556973135986" duration="20196000" />
+      <workItem from="1556973135986" duration="28702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="549581000" />
+    <option name="totallyTimeSpent" value="558087000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -2632,10 +2657,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="235" width="1626" height="789" extended-state="0" />
+    <frame x="69" y="25" width="1851" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24746835" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2166205" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2645,9 +2670,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49806094" weight="0.46120688" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.47025317" side_tool="true" visible="true" weight="0.5121212" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4703601" side_tool="true" visible="true" weight="0.3650108" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.52974683" visible="true" weight="0.5121212" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.5296399" visible="true" weight="0.3650108" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49750692" weight="0.3297414" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32936078" />
@@ -2662,37 +2687,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/serializer/FOSUserBundle/Model.User.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/View/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="314" column="20" selection-start-line="314" selection-start-column="20" selection-end-line="314" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/editbook.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/console">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <element signature="e#26#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1393">
@@ -2713,23 +2707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-          <folding>
-            <element signature="e#44#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -2737,13 +2714,6 @@
           <folding>
             <element signature="e#48#84#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2863,16 +2833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="228" column="40" selection-start-line="228" selection-end-line="229" />
-          <folding>
-            <element signature="e#128#162#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1782">
@@ -2914,13 +2874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/ReviewType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -2952,13 +2905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Repository/BookRepository.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2975,23 +2921,6 @@
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing_api.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="e#48#100#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/Page/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -2999,33 +2928,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php">
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+        <state relative-caret-position="108">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/booksbyauthor.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/editbook.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
           <folding>
-            <element signature="e#48#70#0#PHP" expanded="true" />
+            <element signature="e#358#446#0#HTML" expanded="true" />
+            <element signature="e#481#583#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+          <folding>
+            <element signature="e#128#162#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="240">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
-            <element signature="e#646#748#0#HTML" expanded="true" />
+            <element signature="e#48#100#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="29" column="132" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
           <folding>
-            <element signature="e#358#446#0#HTML" expanded="true" />
-            <element signature="e#481#583#0#HTML" expanded="true" />
+            <element signature="e#44#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#48#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

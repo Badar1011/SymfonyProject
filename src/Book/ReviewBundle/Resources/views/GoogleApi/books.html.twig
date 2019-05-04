@@ -12,6 +12,8 @@
                             {{ book["volumeInfo"]["imageLinks"]["thumbnail"] }}
                              {% elseif book["volumeInfo"]["imageLinks"]["smallThumbnail"] is defined   %}
                             {{ book["volumeInfo"]["imageLinks"]["smallThumbnail"] }}
+                            {% else %}
+                            {{ asset('uploads/images/asd.png') }}
                             {% endif %}
                         " alt="">
                           {#  <img class="card-img-top round" width="260px" height="370px" src="{{ asset('uploads/images/' ~ book.image) }}" alt="Card image cap">#}

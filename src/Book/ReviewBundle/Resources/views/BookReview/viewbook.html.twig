@@ -16,7 +16,7 @@
 
                     <h3 style="font-family:'Lato'; font-weight: 400;font-size: 28px;"><b>{{ book.title }}</b></h3>
                     <div class="divider divider-default"></div>
-                    <p class="text-spacing-sm" style="font-size: 16px" >{{ book.summary|nl2br }}</p>
+                    <p class="text-spacing-sm" style="font-size: 16px" >{{ book.summary| raw | nl2br }}</p>
                     <ul class="list-group" style="font-family:'Lato';  margin-top: 35px; margin-bottom: 20px; font-weight: 400;font-size: 19px;">
                         <li class="list-group-item">Author: {{ book.bookauthor }}</li>
                         <li class="list-group-item">ISBN: {{ book.isbn }}</li>
