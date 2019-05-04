@@ -1,7 +1,49 @@
-{% extends "::base.html.twig" %}
+{% extends 'BookReviewBundle::layout.html.twig' %}
 
-{% block title %}BookReviewBundle:GoogleApi:books{% endblock %}
 
-{% block body %}
-<h1>Welcome to the GoogleApi:books page</h1>
-{% endblock %}
+    {% block body %}
+        <div class="row">
+            {% for book in books %}
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" style="margin-top: 30px; margin-bottom: 20px; background-color: whitesmoke" >
+                        <div class="thumbnail" style="padding-top: 40px; padding-left: 25px; padding-right: 25px; padding-bottom: 10px">
+                            <img style=" display: block; margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto;" class="img-thumbnail rounded" src="
+                            {% if book["volumeInfo"]["imageLinks"]["thumbnail"] is defined %}
+                            {{ book["volumeInfo"]["imageLinks"]["thumbnail"] }}
+                             {% elseif book["volumeInfo"]["imageLinks"]["smallThumbnail"] is defined   %}
+                            {{ book["volumeInfo"]["imageLinks"]["smallThumbnail"] }}
+                            {% endif %}
+                        " alt="">
+                          {#  <img class="card-img-top round" width="260px" height="370px" src="{{ asset('uploads/images/' ~ book.image) }}" alt="Card image cap">#}
+                            <div class="card-body">
+                                {% if book["volumeInfo"]["title"] is defined %}
+                                <h5 style="font-family:'Lato'; font-weight: 400;font-size: 24px;"><a href="{{ path('book',{bookId : book["id"]}) }}">{{ book["volumeInfo"]["title"] }}</a></h5>
+                                {% endif %}
+                                {% if book["volumeInfo"]["subtitle"] is defined %}
+                                    <h5 style="font-family:'Lato'; font-weight: 400;font-size: 24px;">{{ book["volumeInfo"]["subtitle"] }}</h5>
+                                {% endif %}
+                                {% if book["volumeInfo"]["authors"] is defined %}
+                                <h6 style="font-family:'Lato'; font-weight: 400;font-size: 20px;">by: {{ book["volumeInfo"]["authors"] | join(", ") }}</h6>
+                                {% endif %}
+                                <a class="btn btn-primary" href="{{ path('book',{bookId : book["id"]}) }}" style="margin-top: 30px; display: block; margin-left: auto; margin-right: auto" role="button">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="{{ path('books_pagination',{ page: 'first' }) }}" >First</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="{{ path('books_pagination',{ page: 'previous' }) }}" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="{{ path('books_pagination',{ page: 'next' }) }}" >Next</a>
+                </li>
+            </ul>
+        </nav>
+
+    {% endblock %}

@@ -1,7 +1,69 @@
-{% extends "::base.html.twig" %}
+{% extends 'BookReviewBundle::layout.html.twig' %}
 
 {% block title %}BookReviewBundle:GoogleApi:book{% endblock %}
 
 {% block body %}
-<h1>Welcome to the GoogleApi:book page</h1>
+    {% if book %}
+        <section class="section section-lg bg-default">
+            <div class="container container-bigger product-single">
+                <div class="row row-fix justify-content-sm-center justify-content-lg-between row-30 align-items-lg-center">
+                    <div class="col-lg-5 col-xl-6 col-xxl-5">
+                        <img style=" display: block; margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto;" class="img-thumbnail rounded" src="
+                            {% if book.volumeInfo.imageLinks.medium  is defined  %}
+                            {{ book.volumeInfo.imageLinks.medium  }}
+                             {% elseif book.volumeInfo.imageLinks.small is defined    %}
+                            {{ book.volumeInfo.imageLinks.small  }}
+                            {% elseif book.volumeInfo.imageLinks.thumbnail is defined   %}
+                            {{ book.volumeInfo.imageLinks.thumbnail  }}
+                             {% elseif book.volumeInfo.imageLinks.smallThumbnail is defined   %}
+                            {{ book.volumeInfo.imageLinks.smallThumbnail   }}
+                            {% else %}
+                            {{ asset('uploads/images/asd.png') }}
+                            {% endif %}
+                        " alt="">
+                    </div>
+                    <div class="col-lg-7 col-xl-6 col-xxl-6 text-center text-lg-left">
+
+                        <h3 style="font-family:'Lato'; font-weight: 400;font-size: 28px;"><b>
+                                {% if book.volumeInfo.title is defined %}
+                                    {{ book.volumeInfo.title }}
+                                {% endif %}
+                            </b></h3>
+                        <div class="divider divider-default"></div>
+
+                        <p class="text-spacing-sm" style="font-size: 16px" >
+                            {% if book.volumeInfo.description is defined %}
+                                {{ book.volumeInfo.description | raw | nl2br }}
+                            {% endif %}
+                        </p>
+                        <ul class="list-group" style="font-family:'Lato';  margin-top: 35px; margin-bottom: 20px; font-weight: 400;font-size: 19px;">
+                            {% if book.volumeInfo.authors is defined %}
+                                <li class="list-group-item">Author: {{ book.volumeInfo.authors | join(", ") }}</li>
+                            {% endif %}
+                            {% if book.volumeInfo.industryIdentifiers is defined %}
+                                <li class="list-group-item">ISBN: {{ book.volumeInfo.industryIdentifiers | last.identifier }}</li>
+                            {% endif %}
+                            {#<li class="list-group-item">Posted: {{ book.timestamp|date('H:i d/m/y') }}</li>#}
+                            {% if book.volumeInfo.publisher is defined %}
+                                <li class="list-group-item">publisher: {{ book.volumeInfo.publisher }}</li>
+                            {% endif %}
+                            {% if book.volumeInfo.publishedDate is defined %}
+                                <li class="list-group-item">Released Date: {{ book.volumeInfo.publishedDate }}</li>
+                            {% endif %}
+                            {% if book.volumeInfo.pageCount is defined %}
+                                <li class="list-group-item">No. of pages: {{ book.volumeInfo.pageCount }}</li>
+                            {% endif %}
+                            {% if book.volumeInfo.categories is defined %}
+                                <li class="list-group-item">categories: {{ book.volumeInfo.categories | join(", ") }}</li>
+                            {% endif %}
+                            {% if book.volumeInfo.averageRating is defined %}
+                                <li class="list-group-item">Rating: {{ book.volumeInfo.averageRating }}</li>
+                            {% endif %}
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
 {% endblock %}

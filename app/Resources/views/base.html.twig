@@ -116,6 +116,18 @@
                     </li>
                 {% endif %}
             </ul>
+            <form class="form-inline my-2 my-lg-0" name="formz" method="post" id="formz" action="{{ path('books') }}" >
+                <input class="form-control mr-sm-2" id="search" name="search" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+         {#   <script>
+                var inputBox = document.getElementById('search').value;
+                function sendRequest() {
+                    window.location.replace("");
+                }
+
+            </script>#}
         </div>
     </nav>
 

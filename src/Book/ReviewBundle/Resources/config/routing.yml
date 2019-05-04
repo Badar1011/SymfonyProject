@@ -74,5 +74,10 @@ books:
     defaults: { _controller: BookReviewBundle:GoogleApi:books }
 
 book:
-    path:     /book
+    path:     /book/{bookId}
     defaults: { _controller: BookReviewBundle:GoogleApi:book }
+
+
+books_pagination:
+    path:     /books/{page}
+    defaults: { _controller: BookReviewBundle:GoogleApi:bookPagination }
