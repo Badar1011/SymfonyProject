@@ -1,0 +1,10 @@
+[
+  {
+    "id": 37,
+    "vote": false,
+    "ratedby": {
+      "id": 26,
+      "username": "test10@gmail.com"
+    }
+  }
+]

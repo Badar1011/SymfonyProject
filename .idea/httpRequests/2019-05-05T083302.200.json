@@ -1,0 +1,18 @@
+[
+  {
+    "id": 39,
+    "vote": true,
+    "ratedby": {
+      "id": 27,
+      "username": "USMAN@GMAIL.COM"
+    }
+  },
+  {
+    "id": 42,
+    "vote": true,
+    "ratedby": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    }
+  }
+]

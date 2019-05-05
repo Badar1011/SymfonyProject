@@ -4,7 +4,7 @@
 
 {% block body %}
     <h1>Welcome to the Book:create page</h1>
-    {{ form_start(form) }}
+    {{ form_start(form, { attr: {novalidate: 'novalidate'} }) }}
     <div class="form-group">
         {{ form_label(form.title, 'Enter the Book Title',{'attr': {'for': 'title'}}) }}
         {{ form_widget(form.title, {'attr': {'class': 'form-control input-lg', 'id': 'title', 'placeholder': 'Enter the Book Title', 'required': 'required'}}) }}

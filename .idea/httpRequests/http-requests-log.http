@@ -1,3 +1,80 @@
+GET http://127.0.0.1:8000/api/v1/books/reviews/89/ratings/39
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"title":"user4","bookauthor":"asda","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"12312012312","image":"4c14e954e405d7cb7c635a99b85a1d30.jpeg"}
+
+<> 2019-05-05T083847.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/reviews/89/ratings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"title":"user4","bookauthor":"asda","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"12312012312","image":"4c14e954e405d7cb7c635a99b85a1d30.jpeg"}
+
+<> 2019-05-05T083302.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/reviews/88/ratings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"title":"user4","bookauthor":"asda","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"12312012312","image":"4c14e954e405d7cb7c635a99b85a1d30.jpeg"}
+
+<> 2019-05-05T083210.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/reviews/88/ratings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"title":"user4","bookauthor":"asda","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"12312012312","image":"4c14e954e405d7cb7c635a99b85a1d30.jpeg"}
+
+<> 2019-05-05T082211.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/reviews/89/ratings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"title":"user4","bookauthor":"asda","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"12312012312","image":"4c14e954e405d7cb7c635a99b85a1d30.jpeg"}
+
+<> 2019-05-05T081923.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/reviews/89/ratings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"title":"user4","bookauthor":"asda","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"12312012312","image":"4c14e954e405d7cb7c635a99b85a1d30.jpeg"}
+
+<> 2019-05-05T081625.500.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/books/89/review/rating
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+ {"title":"user4","bookauthor":"asda","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"12312012312","image":"4c14e954e405d7cb7c635a99b85a1d30.jpeg"}
+
+<> 2019-05-05T081424.404.html
+
+###
+
 PUT http://127.0.0.1:8000/api/v1/users/books/81
 Accept: */*
 Cache-Control: no-cache
@@ -464,77 +541,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
  {"title":"dasd","bookauthor":"sdfsdf","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"55551231255","image":"1b8e78b815adcdf20538405056.jpeg"}
-
-###
-
-PUT http://127.0.0.1:8000/api/v1/books/82
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
- {"title":"dasd","bookauthor":"sdfsdf","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"55551231255","image":"1b8e78b815adcdf20538405056.jpeg"}
-
-###
-
-PUT http://127.0.0.1:8000/api/v1/books/82
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
- {"title":"dasd","bookauthor":"sdfsdf","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"55551231255","image":"1b8e78b815adcdf20538405056.jpeg"}
-
-###
-
-PUT http://127.0.0.1:8000/api/v1/books/82
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
- {"title":"dasd","bookauthor":"zainab","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"55559231255","image":"1b8e78b815adcdf20538405056.jpeg"}
-
-<> 2019-05-02T031322.400.json
-
-###
-
-PUT http://127.0.0.1:8000/api/v1/books/87
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
- {"title":"das","bookauthor":"zainab","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"55559231255","image":"1b8e78b815adcdf20538405056.jpeg"}
-
-###
-
-PUT http://127.0.0.1:8000/api/v1/books/86
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
- {"title":"das","bookauthor":"zainab","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"55559231255","image":"1b8e78b815adcdf20538405056.jpeg"}
-
-<> 2019-05-02T031236.400.json
-
-###
-
-PUT http://127.0.0.1:8000/api/v1/books/82
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
- {"title":"das","bookauthor":"zainab","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"55559231255","image":"1b8e78b815adcdf20538405056.jpeg"}
-
-<> 2019-05-02T031219.400.json
-
-###
-
-PUT http://127.0.0.1:8000/api/v1/books/82
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
- {"title":"zaianab","bookauthor":"zainab","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"55559231255","image":"1b8e78b815adcdf20538405056.jpeg"}
-
-<> 2019-05-02T031200.400.json
 
 ###
 

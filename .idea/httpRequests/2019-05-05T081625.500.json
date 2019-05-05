@@ -1,0 +1,250 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "Class 'Book\\ReviewBundle\\Entity\\Rating' does not exist",
+        "class": "Doctrine\\Common\\Persistence\\Mapping\\MappingException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/MappingException.php",
+            "line": 93,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "MappingException",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\MappingException",
+            "type": "::",
+            "function": "nonExistingClass",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/RuntimeReflectionService.php",
+            "line": 24,
+            "args": [
+              [
+                "string",
+                "Book\\ReviewBundle\\Entity\\Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "RuntimeReflectionService",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\RuntimeReflectionService",
+            "type": "->",
+            "function": "getParentClasses",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/AbstractClassMetadataFactory.php",
+            "line": 250,
+            "args": [
+              [
+                "string",
+                "Book\\ReviewBundle\\Entity\\Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "AbstractClassMetadataFactory",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory",
+            "type": "->",
+            "function": "getParentClasses",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/AbstractClassMetadataFactory.php",
+            "line": 283,
+            "args": [
+              [
+                "string",
+                "Book\\ReviewBundle\\Entity\\Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "AbstractClassMetadataFactory",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory",
+            "type": "->",
+            "function": "loadMetadata",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Mapping\/ClassMetadataFactory.php",
+            "line": 78,
+            "args": [
+              [
+                "string",
+                "Book\\ReviewBundle\\Entity\\Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Mapping",
+            "short_class": "ClassMetadataFactory",
+            "class": "Doctrine\\ORM\\Mapping\\ClassMetadataFactory",
+            "type": "->",
+            "function": "loadMetadata",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/AbstractClassMetadataFactory.php",
+            "line": 183,
+            "args": [
+              [
+                "string",
+                "Book\\ReviewBundle\\Entity\\Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "AbstractClassMetadataFactory",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory",
+            "type": "->",
+            "function": "getMetadataFor",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/EntityManager.php",
+            "line": 283,
+            "args": [
+              [
+                "string",
+                "BookReviewBundle:Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "EntityManager",
+            "class": "Doctrine\\ORM\\EntityManager",
+            "type": "->",
+            "function": "getClassMetadata",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/doctrine-bundle\/Repository\/ContainerRepositoryFactory.php",
+            "line": 45,
+            "args": [
+              [
+                "string",
+                "BookReviewBundle:Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Bundle\\DoctrineBundle\\Repository",
+            "short_class": "ContainerRepositoryFactory",
+            "class": "Doctrine\\Bundle\\DoctrineBundle\\Repository\\ContainerRepositoryFactory",
+            "type": "->",
+            "function": "getRepository",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/EntityManager.php",
+            "line": 713,
+            "args": [
+              [
+                "object",
+                "Doctrine\\ORM\\EntityManager"
+              ],
+              [
+                "string",
+                "BookReviewBundle:Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "EntityManager",
+            "class": "Doctrine\\ORM\\EntityManager",
+            "type": "->",
+            "function": "getRepository",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/src\/Book\/ReviewBundle\/Controller\/BookAPIController.php",
+            "line": 464,
+            "args": [
+              [
+                "string",
+                "BookReviewBundle:Rating"
+              ]
+            ]
+          },
+          {
+            "namespace": "Book\\ReviewBundle\\Controller",
+            "short_class": "BookAPIController",
+            "class": "Book\\ReviewBundle\\Controller\\BookAPIController",
+            "type": "->",
+            "function": "getBookReviewRatingsAction",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 151,
+            "args": [
+              [
+                "string",
+                "89"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 68,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Kernel.php",
+            "line": 200,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php",
+            "line": 29,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "require",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Bundle\/WebServerBundle\/Resources\/router.php",
+            "line": 42,
+            "args": [
+              [
+                "string",
+                "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

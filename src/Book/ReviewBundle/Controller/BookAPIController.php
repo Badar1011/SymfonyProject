@@ -13,6 +13,7 @@ use Book\ReviewBundle\Entity\Review;
 use Book\ReviewBundle\Entity\User;
 use Book\ReviewBundle\Form\BookType;
 use Book\ReviewBundle\Form\ReviewType;
+use Book\ReviewBundle\Service\FileUploader;
 use FOS\RestBundle\Controller\FOSRestController;
 use FOS\RestBundle\Controller\Annotations as REST;
 use Symfony\Component\HttpFoundation\File\File;
@@ -50,19 +51,18 @@ class BookAPIController extends FOSRestController
     }
 
 
-    // its working, deletes a book, /api/v1/users/{userId}/books/{bookId} [DELETE]
-    /**
-     * DELETE Route annotation.
-     * @REST\Delete("/users/books/{bookId}")
-     */
-    public function deleteUserBookAction($bookId)
+    // its working, deletes a book, /api/v1/books/{bookId} [DELETE]
+
+    public function deleteBookAction($bookId)
     {
-        if ($this->get('security.token_storage')->getToken()->getUser()->hasRole('ROLE_STAFF') === FALSE)  {
+        if (!$this->getStaff())  {
             throw new AccessDeniedException();
         }
 
         /** @var User $user */
-        $user = $this->get('security.token_storage')->getToken()->getUser();
+        $user = $this->getUser();
+
+
         $em = $this->getDoctrine()->getManager();
         /** @var Book $book */
         $book = $em->getRepository('BookReviewBundle:Book')->findOneBy(['id' => $bookId]);
@@ -96,14 +96,15 @@ class BookAPIController extends FOSRestController
 
 
 
-    // its working, post a book, made books sub resource of user, pass user id to use it to make him owner of the book /api/v1/users/books [POST]
-    public function postUserBooksAction(Request $request)
+    // its working, post a book, made books sub resource of user, pass user id to use it to make him owner of the book /api/v1/books [POST]
+    public function postBooksAction(Request $request)
     {
-        if ($this->get('security.token_storage')->getToken()->getUser()->hasRole('ROLE_STAFF') === FALSE)  {
+        if (!$this->getStaff())  {
             throw new AccessDeniedException();
-
         }
-        $user = $this->get('security.token_storage')->getToken()->getUser();
+
+
+        $user = $this->getUser();
         $book = new Book();
         // prepare the form
         $form = $this->createForm(BookType::class, $book);
@@ -114,20 +115,18 @@ class BookAPIController extends FOSRestController
         }
 
 
+      //  return $this->handleView($this->view($form->getErrors(), 400));
+
         // json_decode the request content and pass it to the form
         $form->submit(json_decode($request->getContent(), true));
 
-
+        $object = json_decode($request->getContent());
         // Point 2 of list above
         if($form->isValid()) {
             // Point 4 of list above
             $em = $this->getDoctrine()->getManager();
-            //   $user = $em->getRepository('BookReviewBundle:User')->find($id);
-
-            if ($user instanceof User)
-            {
                 $book->setPublisher($user);
-                $book->setImage("1b8e78b815aac174cdcdf20538405056.jpeg");
+                $book->setImage($object->image);
                 $book->setTimestamp(new \DateTime());
                 $em->persist($book);
                 $em->flush();
@@ -136,12 +135,6 @@ class BookAPIController extends FOSRestController
                 return $this->handleView($this->view(null, 201)
                     ->setLocation($this->generateUrl('api_book_get_book', ['id' => $book->getId()]))
                 );
-            }
-            else
-            {
-                //  var_dump($user);
-                return $this->handleView($this->view($form, 401));
-            }
         } else {
             // the form isn't valid so return the form
             // along with a 400 status code
@@ -152,20 +145,17 @@ class BookAPIController extends FOSRestController
 
 
 
-    // /api/v1/users/books/{id}
-    /**
-     * PUT Route annotation.
-     * @REST\Put("/users/books/{bookId}")
-     */
-    public function putUserBookAction(Request $request, $bookId)
+    // /api/v1/books/{id} [PUT]
+
+    public function putBookAction(Request $request, $bookId)
     {
 
-        if ($this->get('security.token_storage')->getToken()->getUser()->hasRole('ROLE_STAFF') === FALSE)  {
+        if (!$this->getStaff())  {
             throw new AccessDeniedException();
         }
 
         /** @var User $user */
-        $user = $this->get('security.token_storage')->getToken()->getUser();
+        $user = $this->getUser();
         $entityManager = $this->getDoctrine()->getManager();
         /** @var Book $book */
         $book = $entityManager->getRepository('BookReviewBundle:Book')->find($bookId);
@@ -190,11 +180,7 @@ class BookAPIController extends FOSRestController
 
         // Point 2 of list above
         if($form->isValid()) {
-
             if ($book->getPublisher() === $user) {
-
-
-
                 $book->setTitle($newBook->getTitle());
                 $book->setBookauthor($newBook->getBookauthor());
                 $book->setImage("1b8e78b815aac174cdcdf20538405056.jpeg");
@@ -223,7 +209,7 @@ class BookAPIController extends FOSRestController
 
 
 
-
+// EVERYTHING WORKING UP TO THIS POINT
 
 
 // {"title":"asda","bookauthor":"asda","summary":"A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.","isbn":"12312312312","image":"4c14e954e405d7cb7c635a99b85a1d30.jpeg"}
@@ -282,12 +268,12 @@ class BookAPIController extends FOSRestController
      */
     public function deleteUserBookReviewAction($bookId,$reviewId)
     {
-        if ($this->get('security.token_storage')->getToken()->getUser()->hasRole('ROLE_USER') === FALSE)  {
+        if (!$this->getUser())  {
             throw new AccessDeniedException();
         }
 
         /** @var User $user */
-        $user = $this->get('security.token_storage')->getToken()->getUser();
+        $user = $this->getUser();
         $em = $this->getDoctrine()->getManager();
 
         /** @var Review $review */
@@ -453,5 +439,48 @@ class BookAPIController extends FOSRestController
             return $this->handleView($this->view($form, 400));
         }
     }
+
+    /**
+     * GET Route annotation.
+     * @REST\Get("/books/reviews/{reviewId}/ratings")
+     */
+    public function getBookReviewRatingsAction($reviewId)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $reviews = $em->getRepository('BookRatingBundle:Rating')->findBy(['reviewId' => $reviewId]);
+        if(!$reviews) {
+            // no book is found, so we set the view
+            // to no content and set the status code to 404
+            $view = $this->view(null, 404);
+        } else {
+            // the book exists, so we pass it to the view
+            // and the status code defaults to 200 "OK"
+            $view = $this->view($reviews);
+        }
+        return $this->handleView($view);
+    }
+
+
+    /**
+     * GET Route annotation.
+     * @REST\Get("/books/reviews/{reviewId}/ratings/{ratingId}")
+     */
+    public function getBookReviewRatingAction($reviewId,$ratingId)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $reviews = $em->getRepository('BookRatingBundle:Rating')->findBy(['reviewId' => $reviewId, 'id' => $ratingId]);
+        if(!$reviews) {
+            // no book is found, so we set the view
+            // to no content and set the status code to 404
+            $view = $this->view(null, 404);
+        } else {
+            // the book exists, so we pass it to the view
+            // and the status code defaults to 200 "OK"
+            $view = $this->view($reviews);
+        }
+        return $this->handleView($view);
+    }
+
+    #TODO POST FUNCTIONS AND PUT AND DELETE FUNCTIONS FOR THE LIKE AND DISLIKE BUTTONS
 
 }

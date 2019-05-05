@@ -3,12 +3,14 @@
 namespace Book\RatingBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use JMS\Serializer\Annotation as JMS;
 
 /**
  * Rating
  *
  * @ORM\Table(name="rating")
  * @ORM\Entity(repositoryClass="Book\RatingBundle\Repository\RatingRepository")
+ * @JMS\ExclusionPolicy("all")
  */
 class Rating
 {
@@ -18,6 +20,7 @@ class Rating
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
+     * @JMS\Expose()
      */
     private $id;
 
@@ -25,6 +28,7 @@ class Rating
      * @var bool
      *
      * @ORM\Column(name="vote", type="boolean")
+     * @JMS\Expose()
      */
     private $vote;
 
@@ -32,6 +36,7 @@ class Rating
      * @var \Book\ReviewBundle\Entity\User
      * @ORM\ManyToOne(targetEntity="Book\ReviewBundle\Entity\User",inversedBy="rating")
      * @ORM\JoinColumn(name="ratedby", referencedColumnName="id")
+     * @JMS\Expose()
      *
      */
     private $ratedby;

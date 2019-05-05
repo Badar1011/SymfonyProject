@@ -6,6 +6,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class BookType extends AbstractType
@@ -20,7 +21,7 @@ class BookType extends AbstractType
             ->add('bookauthor')
             ->add('summary')
             ->add('isbn')
-            ->add('image',FileType::class,array('label' => 'Select an image', 'data_class' => null))
+            ->add('image',FileType::class,array('label' => 'Select an image'))
             ->add('submit',SubmitType::class);
     }
 

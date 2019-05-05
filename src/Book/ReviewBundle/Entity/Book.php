@@ -3,6 +3,7 @@
 namespace Book\ReviewBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 /**
@@ -78,7 +79,6 @@ class Book
 
     /**
      * @var string
-     * @Assert\Image()
      * @ORM\Column(name="image", type="string", length=255, nullable=true)
      */
     private $image;
@@ -315,6 +315,22 @@ class Book
 
         return $this;
     }
+
+
+    /**
+     * Set image.
+     *
+     * @param string $image
+     *
+     * @return Book
+     */
+    public function setImageFile(File $image = null)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
 
     /**
      * Get image.

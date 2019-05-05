@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2b82fd-8321-4ab6-acbc-2bd4459349dc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-05-02T031200.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-05-02T031219.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-05-02T031236.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-05-02T031322.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-05-05T083847.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-05-05T083847.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,11 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="306">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#48#82#0#PHP" expanded="true" />
               </folding>
@@ -76,50 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-              <folding>
-                <element signature="e#44#76#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="132" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="224" selection-start-line="224" selection-end-line="224" />
+            <state relative-caret-position="327">
+              <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
               <folding>
                 <element signature="e#128#162#0#PHP" expanded="true" />
               </folding>
@@ -128,44 +93,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig">
+        <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+            <state relative-caret-position="180">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
-                <element signature="e#358#446#0#HTML" expanded="true" />
-                <element signature="e#481#583#0#HTML" expanded="true" />
+                <element signature="e#44#76#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php">
+        <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="114">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Review.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-342">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding>
-                <element signature="e#48#100#0#PHP" expanded="true" />
+                <element signature="e#44#98#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php">
+        <entry file="file://$PROJECT_DIR$/app/serializer/FOSUserBundle/Model.User.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="90">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3042">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
             </state>
           </provider>
         </entry>
@@ -174,13 +170,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>redir</find>
-      <find>pers</find>
-      <find>red</find>
-      <find>entry</find>
-      <find>blog</find>
-      <find>findOne</find>
-      <find>parago</find>
       <find>SEC</find>
       <find>sub</find>
       <find>this book already exists</find>
@@ -198,12 +187,19 @@
       <find>bookreviewB</find>
       <find>BookReviewB</find>
       <find>defa</find>
-      <find>post</find>
       <find>descr</find>
       <find>id</find>
       <find>sum</find>
       <find>imag</find>
+      <find>$fileName</find>
+      <find>setImage</find>
       <find>image</find>
+      <find>getUs</find>
+      <find>fosuser</find>
+      <find>rev</find>
+      <find>review</find>
+      <find>get</find>
+      <find>post</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/friendsofsymfony</dir>
@@ -212,10 +208,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response13.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Tests/Controller/PageControllerTest.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/BloggerBlogBundle.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/BookReviewBundle.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Entry.php" />
@@ -227,7 +225,6 @@
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Form/RatingType.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Repository/RatingRepository.php" />
         <option value="$PROJECT_DIR$/src/Book/RatingBundle/Form/RatingType.php" />
-        <option value="$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/RatingController.php" />
         <option value="$PROJECT_DIR$/src/Book/RatingBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Book/RatingBundle/Repository/RatingRepository.php" />
@@ -249,7 +246,6 @@
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/editbook.html.twig" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Security/ClientCreateCommand.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
@@ -261,11 +257,14 @@
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php" />
+        <option value="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php" />
+        <option value="$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php" />
       </list>
     </option>
   </component>
@@ -358,9 +357,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="291" />
-    <option name="y" value="196" />
-    <option name="width" value="1626" />
+    <option name="x" value="421" />
+    <option name="y" value="210" />
+    <option name="width" value="1616" />
     <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -369,7 +368,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -431,6 +429,29 @@
               <item name="symblog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="RatingBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="RatingBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="RatingBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
@@ -535,10 +556,29 @@
               <item name="ReviewBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symblog" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,6 +613,150 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/reviews/89/ratings/39" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;user4&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312012312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/reviews/89/ratings" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;user4&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312012312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/reviews/88/ratings" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;user4&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312012312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="127.0.0.1" />
+                <option name="name" value="sf_redirect" />
+                <option name="path" value="/" />
+                <option name="value" value="%7B%22token%22%3A%2285cf78%22%2C%22route%22%3A%22api_book_put_user_book_reviews%22%2C%22method%22%3A%22PUT%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22putUserBookReviewsAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A327%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/v1/books/89/review/rating" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value=" {&quot;title&quot;:&quot;user4&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312012312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -2357,158 +2541,6 @@
           <option name="textToSend" value=" {&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="127.0.0.1" />
-                <option name="name" value="sf_redirect" />
-                <option name="path" value="/" />
-                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="PUT" />
-          <option name="urlBase" value="http://127.0.0.1:8000" />
-          <option name="urlPath" value="/api/v1/books/82" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value=" {&quot;title&quot;:&quot;asd43a&quot;,&quot;bookauthor&quot;:&quot;asda&quot;,&quot;summary&quot;:&quot;A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.&quot;,&quot;isbn&quot;:&quot;12312312312&quot;,&quot;image&quot;:&quot;4c14e954e405d7cb7c635a99b85a1d30.jpeg&quot;} " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="127.0.0.1" />
-                <option name="name" value="sf_redirect" />
-                <option name="path" value="/" />
-                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://127.0.0.1:8000" />
-          <option name="urlPath" value="/api/v1/users/books/82/reviews" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Authorization" />
-                <option name="value" value="Bearer YWNmMGJmM2I1YTQ4YWY4YTlkMDFhMDQ1MTRlZjY5Yjk4ODVkN2E4NGVlNzZhMjNhMzNkNjhjNzMwNGExZGUzYg" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;title&quot;:&quot;g&quot;,&quot;article&quot;:&quot;ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg&quot;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="127.0.0.1" />
-                <option name="name" value="sf_redirect" />
-                <option name="path" value="/" />
-                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://127.0.0.1:8000" />
-          <option name="urlPath" value="/oauth/v2/token" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;grant_type&quot;:&quot;password&quot;,&quot;client_id&quot;:&quot;1_29hg1jwe8n6sc08gk0w48g40k400kg4oswoock84cgcwosso4o&quot;,&quot;client_secret&quot;:&quot;5b4qd4zz9pk4s4so8g4skos8skc0skscocw4kg0sc8os88sowk&quot;,&quot;username&quot;:&quot;q@gmail.com&quot;,&quot;password&quot;:&quot;12345678&quot;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="127.0.0.1" />
-                <option name="name" value="sf_redirect" />
-                <option name="path" value="/" />
-                <option name="value" value="%7B%22token%22%3A%2209fe65%22%2C%22route%22%3A%22api_book_post_user_books%22%2C%22method%22%3A%22POST%22%2C%22controller%22%3A%7B%22class%22%3A%22Book%5C%5CReviewBundle%5C%5CController%5C%5CBookAPIController%22%2C%22method%22%3A%22postUserBooksAction%22%2C%22file%22%3A%22%5C%2Fhome%5C%2Fbadar%5C%2FDesktop%5C%2FAdvWeb2%5C%2Fsymblog%5C%2Fsrc%5C%2FBook%5C%2FReviewBundle%5C%2FController%5C%2FBookAPIController.php%22%2C%22line%22%3A79%7D%2C%22status_code%22%3A201%2C%22status_text%22%3A%22Created%22%7D" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="PUT" />
-          <option name="urlBase" value="http://127.0.0.1:8000" />
-          <option name="urlPath" value="/api/v1/books/82" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Authorization" />
-                <option name="value" value="Bearer NjY3NWYwYmU1YjZlMmRiOTY1OWE3ZGQyMDM4YWVlYTE3NTMyNjQ2OTQ2YTY1YTEyZTc0ZmQ0Y2MzNzU4OTk0NQ" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;title&quot;:&quot;kava&quot;,&quot;bookauthor&quot;:&quot;arslan&quot;,&quot;summary&quot;:&quot;arslanarslanarslanarslanarslanarslanarslanarslanarslanarslanarslanarslanarslanarslan&quot;,&quot;isbn&quot;:&quot;21234232342&quot;,&quot;image&quot;:&quot;fsadfasdfsad4f34.jpg&quot;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -2640,12 +2672,13 @@
       <workItem from="1556834413800" duration="8444000" />
       <workItem from="1556846520678" duration="7283000" />
       <workItem from="1556894154188" duration="2052000" />
-      <workItem from="1556973135986" duration="28702000" />
+      <workItem from="1556973135986" duration="28892000" />
+      <workItem from="1557062199818" duration="22561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="558087000" />
+    <option name="totallyTimeSpent" value="580838000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -2660,7 +2693,7 @@
     <frame x="69" y="25" width="1851" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2166205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21883656" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2670,13 +2703,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49806094" weight="0.46120688" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4703601" side_tool="true" visible="true" weight="0.3650108" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.29916897" side_tool="true" visible="true" weight="0.4352052" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.5296399" visible="true" weight="0.3650108" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.5279778" weight="0.3650108" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.499723" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49750692" weight="0.3297414" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32936078" />
-      <window_info anchor="bottom" id="REST Client" order="13" sideWeight="0.70193905" weight="0.33512932" />
+      <window_info anchor="bottom" id="REST Client" order="13" sideWeight="0.700831" visible="true" weight="0.4352052" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2687,39 +2720,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1393">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/DependencyInjection/BookRatingExtension.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/DependencyInjection/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="214" column="37" selection-start-line="214" selection-start-column="37" selection-end-line="214" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/Annotations/Post.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2727,13 +2727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" selection-start-line="21" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -2802,16 +2795,6 @@
     <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#44#98#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/serializer/BookReviewBundle/Model.Review.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2830,37 +2813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="102" column="53" selection-start-line="102" selection-start-column="53" selection-end-line="102" selection-end-column="53" />
-          <folding>
-            <element signature="e#44#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3114">
-          <caret line="173" column="20" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -2928,13 +2880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2951,88 +2896,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-          <folding>
-            <element signature="e#358#446#0#HTML" expanded="true" />
-            <element signature="e#481#583#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/viewbook.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="630">
           <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-          <folding>
-            <element signature="e#128#162#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/book.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="270">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/GoogleApi/books.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/uploads/images/286f5ba4f78363d8fb7f545f4fc320d3.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/uploads/images/347db550026afc91ce5ebd2c30d6eb45.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookReviewController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="446">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#48#100#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="132" selection-start-line="29" selection-start-column="132" selection-end-line="29" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Book.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        <state relative-caret-position="348">
+          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
           <folding>
             <element signature="e#44#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Form/BookType.php">
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/BookReview/createbook.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="270">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Service/FileUploader.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="416">
+          <caret line="474" column="5" selection-start-line="474" selection-start-column="5" selection-end-line="474" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializer/FOSUserBundle/Model.User.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3042">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="e#44#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/RatingBundle/Entity/Rating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="e#44#76#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#48#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="128" column="46" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="46" />
+          <folding>
+            <element signature="e#128#162#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
