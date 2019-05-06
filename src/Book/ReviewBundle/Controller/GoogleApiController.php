@@ -10,6 +10,7 @@ use Knp\Bundle\PaginatorBundle\KnpPaginatorBundle;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Dotenv\Dotenv;
 
 class GoogleApiController extends Controller
 {
@@ -33,7 +34,7 @@ class GoogleApiController extends Controller
        $client = new Client([
             'base_uri' => 'https://www.googleapis.com/books/v1/',
             'headers' => [
-                'apiKey' => 'AIzaSyB5EeEzqJceEWyd_FfwFpdzvzGi4PSbuQU',
+                'apiKey' => $_ENV['GOOGLE_API_KEY'],
                 'Content-Type' => 'application/json'
             ]
         ]);
@@ -170,7 +171,7 @@ class GoogleApiController extends Controller
         $client = new Client([
             'base_uri' => 'https://www.googleapis.com/books/v1/',
             'headers' => [
-                'apiKey' => 'AIzaSyBFIAoLIIoQWuS4YOmaZldOaZSdvWU4skY',
+                'apiKey' => $_ENV['GOOGLE_API_KEY'],
                 'Content-Type' => 'application/json'
             ]
         ]);
@@ -211,7 +212,7 @@ class GoogleApiController extends Controller
         $client = new Client([
             'base_uri' => 'https://www.googleapis.com/books/v1/',
             'headers' => [
-                'apiKey' => 'AIzaSyB5EeEzqJceEWyd_FfwFpdzvzGi4PSbuQU',
+                'apiKey' => $_ENV['GOOGLE_API_KEY'],
                 'Content-Type' => 'application/json'
             ]
         ]);

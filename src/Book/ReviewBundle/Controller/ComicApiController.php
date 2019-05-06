@@ -14,8 +14,8 @@ class ComicApiController extends Controller
     public function __construct()
     {
         $this->ts = new \DateTime();
-        $this->apiKey = "df08e3f15153d652d6d7c1ca7dc19a1a";
-        $this->privateKey = "844b2deb18647e1bd07e14069164f26ff8e01204";
+        $this->apiKey = $_ENV['MARVEL_COMIC_API_KEY'];
+        $this->privateKey = $_ENV['MARVEL_COMIC_PRIVATE_KEY'];
     }
 
     public function oneComicBookAction($id)
