@@ -86,3 +86,16 @@ books_pagination:
 adding_google_book:
     path:     /adding/book/{id}
     defaults: { _controller: BookReviewBundle:GoogleApi:addingBook }
+
+one_comic_book:
+    path:     /oneComicBook/{id}
+    defaults: { _controller: BookReviewBundle:ComicApi:oneComicBook }
+
+comic_books:
+    path:     /comicBooks
+    defaults: { _controller: BookReviewBundle:ComicApi:comicBooks }
+
+
+comic_books_pagination:
+    path:     /comicbooks/{page}
+    defaults: { _controller: BookReviewBundle:ComicApi:comicBookPagination }

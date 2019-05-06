@@ -1,0 +1,63 @@
+{% extends 'BookReviewBundle::layout.html.twig' %}
+
+{% block title %}BookReviewBundle:Comicbook:book{% endblock %}
+
+{% block body %}
+    {% if book[0] %}
+        <section class="section section-lg bg-default">
+            <div class="container container-bigger product-single">
+                <div class="row row-fix justify-content-sm-center justify-content-lg-between row-30 align-items-lg-center">
+                    <div class="col-lg-5 col-xl-6 col-xxl-5">
+                        <img style=" display: block; margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto;" width="400px" height="600px" class="img-thumbnail rounded" src="
+                           {% if book[0].images[0].path is defined %}
+                            {{ book[0].images[0].path ~ '/portrait_uncanny.' ~ book[0].images[0].extension }}
+                            {% else %}
+                            {{ asset('uploads/images/asd.png') }}
+                            {% endif %}
+                        " alt="">
+                    </div>
+                    <div class="col-lg-7 col-xl-6 col-xxl-6 text-center text-lg-left">
+
+                        <h3 style="font-family:'Lato'; font-weight: 400;font-size: 28px;"><b>
+                                {% if book[0].title is defined %}
+                                    {{ book[0].title }}
+                                {% endif %}
+                            </b></h3>
+                        <div class="divider divider-default"></div>
+
+                        <p class="text-spacing-sm" style="font-size: 16px" >
+                            {% if book[0].description is defined %}
+                                {{ book[0].description | raw | nl2br }}
+                            {% endif %}
+                        </p>
+                        <ul class="list-group" style="font-family:'Lato';  margin-top: 35px; margin-bottom: 20px; font-weight: 400;font-size: 19px;">
+                            {% if book[0].isbn is defined %}
+                                <li class="list-group-item">ISBN: {{ book[0].isbn }}</li>
+                            {% endif %}
+                            {% if  book[0].issn is defined %}
+                                <li class="list-group-item">ISSN: {{ book[0].issn }}</li>
+                            {% endif %}
+                            {% if  book[0].modified is defined %}
+                            <li class="list-group-item">Date modified: {{ book[0].modified }}</li>
+                            {% endif %}
+                            {% if book[0].pageCount is defined %}
+                                <li class="list-group-item">No. of pages: {{ book[0].pageCount }}</li>
+                            {% endif %}
+                            {% if book[0].prices[0].price is defined %}
+                                <li class="list-group-item">price: {{ book[0].prices[0].price }}</li>
+                            {% endif %}
+                            {% if book[0].creators.items is defined %}
+                            {% set creators = [] %}
+                                {% for item in book[0].creators.items %}
+                                    {% set creators = creators|merge([item.name]) %}
+                                {% endfor %}
+                                {%  set creators = creators|join(', ') %}
+                                <li class="list-group-item">Creators: {{ creators }}</li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+{% endblock %}

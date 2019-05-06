@@ -1,0 +1,50 @@
+{% extends 'BookReviewBundle::layout.html.twig' %}
+
+
+    {% block body %}
+        <form class="form-inline my-2 my-lg-0" method="post" action="{{ path('comic_books') }}">
+            <input class="form-control mr-sm-2" id="comicsearch" name="comicsearch" type="text" placeholder="Avengers" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="row">
+            {% for book in comics %}
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" style="margin-top: 30px; margin-bottom: 20px; background-color: whitesmoke" >
+                        <div class="thumbnail" style="padding-top: 40px; padding-left: 25px; padding-right: 25px; padding-bottom: 10px">
+                            <img style=" display: block; margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto;" class="img-thumbnail rounded" src="
+                            {% if book.thumbnail.path is defined %}
+                            {{ book.thumbnail.path ~ '/portrait_uncanny.' ~ book.thumbnail.extension }}
+                            {% else %}
+                            {{ asset('uploads/images/asd.png') }}
+                            {% endif %}
+                        " alt="">
+                            {#  <img class="card-img-top round" width="260px" height="370px" src="{{ asset('uploads/images/' ~ book.image) }}" alt="Card image cap">#}
+                            <div class="card-body">
+                                {% if book.title is defined %}
+                                    <h5 style="font-family:'Lato'; font-weight: 400;font-size: 24px;"><a href="{{ path('one_comic_book',{id : book.id}) }}">{{ book.title }}</a></h5>
+                                {% endif %}
+                                {% if book.modified is defined %}
+                                    <h6 style="font-family:'Lato'; font-weight: 400;font-size: 20px;">Date: {{ book.modified | date }}</h6>
+                                {% endif %}
+                                <a class="btn btn-primary" href="{{ path('one_comic_book',{id : book.id}) }}" style="margin-top: 30px; display: block; margin-left: auto; margin-right: auto" role="button">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="{{ path('comic_books_pagination',{ page: 'first' }) }}" >First</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="{{ path('comic_books_pagination',{ page: 'previous' }) }}" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="{{ path('comic_books_pagination',{ page: 'next' }) }}" >Next</a>
+                </li>
+            </ul>
+        </nav>
+
+    {% endblock %}

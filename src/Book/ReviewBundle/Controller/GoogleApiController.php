@@ -62,6 +62,7 @@ class GoogleApiController extends Controller
 
     public function bookAction($bookId)
     {
+
         $book = $this->getOneBook($bookId);
         return $this->render('BookReviewBundle:GoogleApi:book.html.twig', array(
             "book" => $book,
@@ -160,6 +161,10 @@ class GoogleApiController extends Controller
     }
 
 
+
+
+
+
     public function getOneBook($bookId)
     {
         $client = new Client([
@@ -170,15 +175,13 @@ class GoogleApiController extends Controller
             ]
         ]);
         $response = $client->request('GET', "volumes/$bookId");
-        $book = json_decode($response->getBody()->getContents());
-        return $book;
+           return json_decode($response->getBody()->getContents());
     }
 
     public function bookPaginationAction($page)
     {
        $session = $this->get('session');
        $q = $session->get('search');
-var_dump($q);
         if (strcmp($page,"next") == 0)
         {
             $newIndex = $session->get('index');
