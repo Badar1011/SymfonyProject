@@ -97,7 +97,7 @@ class BookAPIController extends FOSRestController
 
 
 
-
+        //      /api/v1/books
     // its working, post a book, made books sub resource of user, pass user id to use it to make him owner of the book /api/v1/books [POST]
     public function postBooksAction(Request $request)
     {
@@ -345,7 +345,10 @@ class BookAPIController extends FOSRestController
             $em = $this->getDoctrine()->getManager();
           //  $user = $em->getRepository('BookReviewBundle:User')->find($userId);
             $book = $em->getRepository('BookReviewBundle:Book')->find($bookId);
-
+            if (!$book)
+            {
+                return $this->handleView($this->view(null, 404));
+            }
             if ($user instanceof User and $book instanceof Book)
             {
                 $review->setReviewer($user);
@@ -443,6 +446,10 @@ class BookAPIController extends FOSRestController
         }
     }
 
+
+
+        //      /api/v1/books/reviews/{reviewId}/ratings
+
     /**
      * GET Route annotation.
      * @REST\Get("/books/reviews/{reviewId}/ratings")
@@ -463,7 +470,7 @@ class BookAPIController extends FOSRestController
         return $this->handleView($view);
     }
 
-
+        //      /api/v1/books/reviews/{reviewId}/ratings/{ratingId}
     /**
      * GET Route annotation.
      * @REST\Get("/books/reviews/{reviewId}/ratings/{ratingId}")
@@ -488,10 +495,10 @@ class BookAPIController extends FOSRestController
 
     /**
      * POST Route annotation.
-     * @REST\Post("/books/reviews/{reviewId}/ratings")
+     * @REST\Post("/users/books/reviews/{reviewId}/ratings")
      */
-    // /api/v1/books/reviews/{reviewId}/ratings
-    public function postBookReviewRatingsAction(Request $request, $reviewId)
+    // /api/v1/users/books/reviews/{reviewId}/ratings
+    public function postUserBookReviewRatingsAction(Request $request, $reviewId)
     {
         if (!$this->getUser())  {
             throw new AccessDeniedException();
@@ -545,6 +552,111 @@ class BookAPIController extends FOSRestController
         }
     }
 
+
+    // /api/v1/users/books/reviews/{reviewId}/ratings/{ratingId}
+    /**
+     * DELETE Route annotation.
+     * @REST\Delete("/users/books/reviews/{reviewId}/ratings/{ratingId}")
+     */
+    public function deleteUserBookReviewRatingAction($reviewId,$ratingId)
+    {
+        if (!$this->getUser())  {
+            throw new AccessDeniedException();
+        }
+
+        /** @var User $user */
+        $user = $this->getUser();
+        $em = $this->getDoctrine()->getManager();
+
+        /** @var Rating $rating */
+        $rating = $em->getRepository('BookRatingBundle:Rating')->findOneBy(['reviewId' => $reviewId, 'id' => $ratingId]);
+        if(!$rating) {
+            // no blog entry is found, so we set the view
+            // to no content and set the status code to 404
+            $view = $this->view(null, 404);
+        }
+        else {
+
+            if ($rating->getRatedby() === $user)
+            {
+                // the blog entry exists, so we pass it to the view
+                // and the status code defaults to 200 "OK"
+                $em->remove($rating);
+                $em->flush();
+                $view = $this->view(null, 200);
+            }
+            else
+            {
+                $view = $this->view(null, 403);
+            }
+        }
+        return $this->handleView($view);
+    }
+
+
+        //      /api/v1/users/books/reviews/{reviewId}/ratings/{ratingId}
+
+    /**
+     * PUT Route annotation.
+     * @REST\Put("/users/books/reviews/{reviewId}/ratings/{ratingId}")
+     */
+    public function putUserBookReviewRatingAction(Request $request, $reviewId, $ratingId)
+    {
+
+        if (!$this->getUser())  {
+            throw new AccessDeniedException();
+        }
+        /** @var User $user */
+        $user = $this->getUser();
+        $entityManager = $this->getDoctrine()->getManager();
+        /** @var Rating $rating */
+        $rating = $entityManager->getRepository('BookRatingBundle:Rating')->findOneBy(['reviewId' => $reviewId, 'id' => $ratingId]);
+        if (!$rating)
+        {
+            return $this->handleView($this->view(null, 404));
+        }
+
+
+
+        // Point 1 of list above
+        if($request->getContentType() != 'json') {
+            return $this->handleView($this->view(null, 400));
+        }
+        $form = $this->createForm(RatingType::class, $rating,
+            ['action' => $request->getUri()]
+        );
+
+        // json_decode the request content and pass it to the form
+        $form->submit(json_decode($request->getContent(), true));
+
+        // Point 2 of list above
+        if($form->isSubmitted()) {
+            if ($rating->getRatedby() === $user)
+            {
+                $v = json_decode($request->getContent(), true)['vote'];
+                $rating->setVote($v);
+
+
+                // Point 4 of list above
+                $entityManager->persist($rating);
+                $entityManager->flush();
+                // set status code to 201 and set the Location header
+                // to the URL to retrieve the blog entry - Point 5
+                return $this->handleView($this->view(null, 201)
+                    ->setLocation($this->generateUrl('api_book_get_book_review_rating', ['reviewId' => $reviewId, 'ratingId' => $rating->getId()]))
+                );
+            }
+            else
+            {
+                $view = $this->view(null, 403);
+                return $this->handleView($view);
+            }
+        } else {
+            // the form isn't valid so return the form
+            // along with a 400 status code
+            return $this->handleView($this->view($form, 400));
+        }
+    }
 
 
 
