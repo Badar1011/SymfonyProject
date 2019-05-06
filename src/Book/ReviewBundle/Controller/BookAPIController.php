@@ -8,6 +8,8 @@
 
 namespace Book\ReviewBundle\Controller;
 
+use Book\RatingBundle\Entity\Rating;
+use Book\RatingBundle\Form\RatingType;
 use Book\ReviewBundle\Entity\Book;
 use Book\ReviewBundle\Entity\Review;
 use Book\ReviewBundle\Entity\User;
@@ -317,10 +319,11 @@ class BookAPIController extends FOSRestController
      */
     public function postUserBookReviewsAction(Request $request, $bookId)
     {
-        if (($this->get('security.token_storage')->getToken()->getUser()->hasRole('ROLE_USER') === FALSE) AND ($this->get('security.token_storage')->getToken()->getUser()->hasRole('ROLE_STAFF') === FALSE)) {
+        if (!$this->getUser())  {
             throw new AccessDeniedException();
         }
-        $user = $this->get('security.token_storage')->getToken()->getUser();
+        /** @var User $user */
+        $user = $this->getUser();
         $review = new Review();
         // prepare the form
         $form = $this->createForm(ReviewType::class, $review);
@@ -385,11 +388,11 @@ class BookAPIController extends FOSRestController
     public function putUserBookReviewAction(Request $request, $bookId, $reviewId)
     {
 
-        if (($this->get('security.token_storage')->getToken()->getUser()->hasRole('ROLE_USER') === FALSE) AND ($this->get('security.token_storage')->getToken()->getUser()->hasRole('ROLE_STAFF') === FALSE)) {
+        if (!$this->getUser())  {
             throw new AccessDeniedException();
         }
-        $user = $this->get('security.token_storage')->getToken()->getUser();
-
+        /** @var User $user */
+        $user = $this->getUser();
         $entityManager = $this->getDoctrine()->getManager();
         $review = $entityManager->getRepository('BookReviewBundle:Review')->findOneBy(['reviewof' => $bookId, 'id' => $reviewId]);
         if (!$review)
@@ -480,6 +483,70 @@ class BookAPIController extends FOSRestController
         }
         return $this->handleView($view);
     }
+
+
+
+    /**
+     * POST Route annotation.
+     * @REST\Post("/books/reviews/{reviewId}/ratings")
+     */
+    // /api/v1/books/reviews/{reviewId}/ratings
+    public function postBookReviewRatingsAction(Request $request, $reviewId)
+    {
+        if (!$this->getUser())  {
+            throw new AccessDeniedException();
+        }
+        /** @var User $user */
+        $user = $this->getUser();
+
+        $rating = new Rating();
+        // prepare the form
+        $form = $this->createForm(RatingType::class, $rating);
+
+        // Point 1 of list above
+        if($request->getContentType() != 'json') {
+            return $this->handleView($this->view(null, 400));
+        }
+        $em = $this->getDoctrine()->getManager();
+        $review = $em->getRepository('BookReviewBundle:Review')->find($reviewId);
+        if (!$review)
+        {
+            return $this->handleView($this->view(null, 404));
+        }
+
+        $alreadyExists = $em->getRepository('BookRatingBundle:Rating')->findOneBy(['reviewId' => $reviewId, 'ratedby' => $user->getId()]);
+        if ($alreadyExists)
+        {
+            return $this->handleView($this->view(null, 409));
+        }
+
+
+        // json_decode the request content and pass it to the form
+        $form->submit(json_decode($request->getContent(), true));
+
+        // Point 2 of list above
+        if($form->isSubmitted()) {
+                $rating->setRatedby($user);
+                $rating->setReviewId($review);
+                $v = json_decode($request->getContent(), true)['vote'];
+                $rating->setVote($v);
+                $em->persist($rating);
+                $em->flush();
+                // set status code to 201 and set the Location header
+                // to the URL to retrieve the blog entry - Point 5
+                return $this->handleView($this->view(null, 201)
+                    ->setLocation($this->generateUrl('api_book_get_book_review_rating', ['reviewId' => $reviewId, 'ratingId' => $rating->getId()]))
+                );
+
+        } else {
+            // the form isn't valid so return the form
+            // along with a 400 status code
+            return $this->handleView($this->view($form, 400));
+        }
+    }
+
+
+
 
     #TODO POST FUNCTIONS AND PUT AND DELETE FUNCTIONS FOR THE LIKE AND DISLIKE BUTTONS
 
