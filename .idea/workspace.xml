@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2b82fd-8321-4ab6-acbc-2bd4459349dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symblog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/ComicApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/ComicApiController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app_dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app_dev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="230">
+              <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -214,13 +206,13 @@
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/BookAPIController.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/ComicApi/one_comic_book.html.twig" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/views/ComicApi/comic_books.html.twig" />
         <option value="$PROJECT_DIR$/web/app_dev.php" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/GoogleApiController.php" />
         <option value="$PROJECT_DIR$/web/.env" />
         <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Controller/ComicApiController.php" />
+        <option value="$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml" />
       </list>
     </option>
   </component>
@@ -2585,12 +2577,12 @@
       <workItem from="1556846520678" duration="7283000" />
       <workItem from="1556894154188" duration="2052000" />
       <workItem from="1556973135986" duration="28892000" />
-      <workItem from="1557062199818" duration="42343000" />
+      <workItem from="1557062199818" duration="42735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="600620000" />
+    <option name="totallyTimeSpent" value="601012000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -2978,8 +2970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Book/ReviewBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="230">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
         </state>
       </provider>
     </entry>

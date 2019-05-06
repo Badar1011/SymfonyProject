@@ -87,6 +87,8 @@ adding_google_book:
     path:     /adding/book/{id}
     defaults: { _controller: BookReviewBundle:GoogleApi:addingBook }
 
+
+#MARVEL COMIC BOOK STUFF
 one_comic_book:
     path:     /oneComicBook/{id}
     defaults: { _controller: BookReviewBundle:ComicApi:oneComicBook }
