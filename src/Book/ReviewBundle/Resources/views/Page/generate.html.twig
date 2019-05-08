@@ -1,0 +1,52 @@
+{# src/Book/ReviewBundle/Resources/views/Page/index.html.twig #}
+{% extends 'BookReviewBundle::layout.html.twig' %}
+
+
+{% block body %}
+
+<p>CLIENT ID: {{ clientId }}</p>
+<p>CLIENT PASSWORD: {{ clientSecret }}</p>
+<p>YOUR USERNAME: {{ username }}</p>
+<p></p>
+<p></p>
+    <div class="col-xs-12">
+
+            Enter your password: <input type="password" name="password" id="password" class="text-black form-control">
+           <input type="hidden" value="{{ clientId }}" name="clientId" id="clientId" class="text-black form-control">
+           <input type="hidden" value="{{ clientSecret }}" name="clientSecret" id="clientSecret" class="text-black form-control">
+           <input type="hidden" value="{{ username }}" name="username" id="username" class="text-black form-control">
+<p></p>
+            <button id="submit" class="btn btn-success">GENERATE TOKEN</button>
+
+    </div>
+<div id="token">
+
+</div>
+
+    <script>
+        $("#submit").click(function () {
+            var password = $("#password").val()
+            var clientId=  $("#clientId").val();
+            var clients=  $("#clientSecret").val();
+            var username = $("#username").val();
+
+            var data = {
+                'grant_type': 'password',
+                'client_id': clientId,
+                'client_secret': clients,
+                'username': username,
+                'password': password,
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "http://127.0.0.1:8000/oauth/v2/token",
+                data: data,
+                success:function(data, status) {// success callback
+                    console.log(data.access_token);
+                    $('#token').text(data.access_token, data.refresh_token);
+                }
+            }).done(function() {  console.log('Request done'); });
+        })
+    </script>
+{% endblock %}

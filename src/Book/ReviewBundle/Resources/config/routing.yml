@@ -51,6 +51,16 @@ books_by_author:
     defaults: { _controller: BookReviewBundle:BookReview:booksbyauthor }
 
 
+generate_token:
+    path: /client/details
+    defaults: { _controller: BookReviewBundle:Page:showdetails }
+
+
+
+token:
+    path: /token
+    defaults: { _controller: BookReviewBundle:Page:authorise }
+
 createreview:
     path:     /createreview/{id}
     defaults: { _controller: BookReviewBundle:Review:createreview }

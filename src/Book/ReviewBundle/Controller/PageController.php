@@ -2,6 +2,7 @@
 
 namespace Book\ReviewBundle\Controller;
 
+use GuzzleHttp\Client;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -51,5 +52,37 @@ class PageController extends Controller
     {
         return $this->render('BookReviewBundle:Page:contact.html.twig');
     }
+
+
+
+    public function showdetailsAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $existingClient = $em->getRepository("BookReviewBundle:Client")->findOneBy(
+            ["user" => $this->getUser()]
+        );
+        $clientId = null;
+        $clientSecret = null;
+
+        if (!$existingClient) {
+            $clientManager = $this->container->get('fos_oauth_server.client_manager.default');
+            $client = $clientManager->createClient();
+            $client->setRedirectUris(array('http://localhost'));
+            $client->setAllowedGrantTypes(array('password', 'refresh_token', 'token', 'authorization_code'));
+            $client->setUser($this->getUser());
+            $clientManager->updateClient($client);
+            $clientId = $client->getPublicId();
+            $clientSecret = $client->getSecret();
+        } else {
+            $clientId = $existingClient->getPublicId();
+            $clientSecret = $existingClient->getSecret();
+        }
+
+        return $this->render('BookReviewBundle:Page:generate.html.twig', array(
+           'clientId' => $clientId, 'clientSecret' => $clientSecret, 'username' => $this->getUser()->getUsername(),
+        ));
+    }
+
+
 
 }

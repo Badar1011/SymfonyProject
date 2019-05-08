@@ -70,6 +70,7 @@ security:
         - { path: ^/editreview, role: ROLE_USER }
         - { path: ^/adding_google_book, role: [ROLE_STAFF, ROLE_ADMIN] }
         - { path: ^/createreview, role: ROLE_USER }
+        - { path: ^/generate_token, role: ROLE_USER }
         - { path: ^/deletereview, role: ROLE_USER }
         - { path: ^/editbook, role: [ROLE_STAFF, ROLE_ADMIN] }
         - { path: ^/createbook, role: [ROLE_STAFF, ROLE_ADMIN] }
