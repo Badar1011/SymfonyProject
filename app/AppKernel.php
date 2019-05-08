@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new JavierEguiluz\Bundle\EasyAdminBundle\EasyAdminBundle(),
             new \JMS\SerializerBundle\JMSSerializerBundle(),
+            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
             new \FOS\RestBundle\FOSRestBundle(),
             new Book\ReviewBundle\BookReviewBundle(),
             new Book\RatingBundle\BookRatingBundle(),

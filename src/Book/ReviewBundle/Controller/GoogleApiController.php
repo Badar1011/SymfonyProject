@@ -17,13 +17,8 @@ class GoogleApiController extends Controller
     public function booksAction(Request $request)
     {
 
-       if ($request->request->get('search') == null)
+       if ($request->request->get('search') != null)
        {
-
-       }
-       else
-       {
-
            $searchResult = $request->request->get('search');
            $session = $this->get('session');
            $session->set('search', $searchResult);
@@ -38,7 +33,7 @@ class GoogleApiController extends Controller
                 'Content-Type' => 'application/json'
             ]
         ]);
-        $response = $client->request('GET', "volumes?q=$searchResult&maxResults=12&startIndex=0");
+        $response = $client->request('GET', "volumes?q=$searchResult&maxResults=12");
 
 
 

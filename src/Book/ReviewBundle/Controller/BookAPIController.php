@@ -16,6 +16,7 @@ use Book\ReviewBundle\Entity\User;
 use Book\ReviewBundle\Form\BookType;
 use Book\ReviewBundle\Form\ReviewType;
 use Book\ReviewBundle\Service\FileUploader;
+use Swagger\Annotations as SWG;
 use FOS\RestBundle\Controller\FOSRestController;
 use FOS\RestBundle\Controller\Annotations as REST;
 use Symfony\Component\HttpFoundation\File\File;
@@ -26,6 +27,9 @@ class BookAPIController extends FOSRestController
 {
 
     // its working, gets all book, /api/v1/books [GET]
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
     public function getBooksAction()
     {
         $em = $this->getDoctrine()->getManager();
