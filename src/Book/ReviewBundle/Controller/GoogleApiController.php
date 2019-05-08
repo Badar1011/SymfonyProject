@@ -44,17 +44,6 @@ class GoogleApiController extends Controller
 
         $bookResults = json_decode($response->getBody()->getContents(), true)["items"];
        // $this->startIndex = $this->startIndex + 10;
-       // var_dump($bookResults);
-       // die;
-
-
-   //     $paginator = $this->get('knp_paginator');
-     //   $paginator->setParam('section', 'supplier');
-
-     //   $result = $paginator->paginate($bookResults, 9);
-
-               //  $this->paginationService->createPaginator($books, 6, $request);
-
 
                 return $this->render('BookReviewBundle:GoogleApi:books.html.twig', array(
                 "books" => $bookResults,
