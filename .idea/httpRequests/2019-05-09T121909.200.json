@@ -1,0 +1,828 @@
+[
+  {
+    "id": 63,
+    "title": "asdasd",
+    "bookauthor": "asdlakshdlakh ljkshadlkjas hdlkjashdl kjash",
+    "summary": "askjdlhaslkjdh asldkjhasldkj hal",
+    "isbn": "asdlkjhasl jkdhaslj kh",
+    "image": "d17e083627b8920e23c548525028a5c8.jpeg",
+    "timestamp": "2018-12-27T17:58:16+00:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": [
+      {
+        "id": 85,
+        "title": "jkxh cvlkjxhfz vjdfljkgh d",
+        "article": "ljfkhd alkjfhd slkjhgdslfkj ghdlfks jg hdflkjhg dflkjghfdklj sghdlsfkjhgdlk sjfghlkdsjf hglkjdfh glkjdsfhg kljfdhglkjds fhgkljdhf glkjdshf jgkldhfg fd",
+        "timestamp": "2019-02-04T11:02:50+00:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": [
+          {
+            "id": 47,
+            "vote": false,
+            "ratedby": {
+              "id": 28,
+              "username": "q@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "title": "jkdshf ljdkshflsjdkhf",
+        "article": "kjd hgldfshglk dsfhgjfdklhg dlkjfhgldjfkhgdl kjfhgldk jfh gdlkjfhg ldkjfhgk dljfhgkljdfh gdfjhg dkjfhgfdkljhgdflk jhg dlkjfhg ldkjfhglkjdfh glkjdfhglk jdfh g ljkdsfhjgkl dfljkg fdlkj",
+        "timestamp": "2019-02-04T11:03:03+00:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": []
+      },
+      {
+        "id": 88,
+        "title": "dfjsdflkj shdlfk jshad",
+        "article": "slfkjhg dlkjgshdfkl jghdlkfjhg dlfjkhg dfklj hgdfk jhgldkjfh gdkjfhgldkjfh gdkljfh gkdjfhg dfkljhgdljfkhgk ljdfshgklj dshfgljkfdg ljkdshg djfklhg",
+        "timestamp": "2019-02-04T11:03:51+00:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": [
+          {
+            "id": 37,
+            "vote": false,
+            "ratedby": {
+              "id": 26,
+              "username": "test10@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "title": "sdkfjhs djklfhsdjklfh",
+        "article": "djkfhgdflj skhgldkfh gkljdhfgkljd hfgkljdhfljgkdhfkljghd fjklghdfkljs hgdjfklgdfj kgjfdkl gdjfkls hgkjdfh gkjfdl gldjfkh gdljfkhg jdklfhglsdkjfhg",
+        "timestamp": "2019-02-04T11:04:08+00:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": [
+          {
+            "id": 39,
+            "vote": true,
+            "ratedby": {
+              "id": 27,
+              "username": "USMAN@GMAIL.COM"
+            }
+          },
+          {
+            "id": 42,
+            "vote": true,
+            "ratedby": {
+              "id": 4,
+              "username": "badar@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "title": "UKLFHSADKJ.FH L",
+        "article": "SFKJL HLSDKJ HG;SJFKDHGLSDKJFHGLSD JFKHGLSD JKFHG LDFSKJ HGDSLFKJHGSDLFJKHGSDLFKJHGDLSF KJHGLSDFKJHGDLF KJHGDSFLJK HGDLFSKJHGSD.J FKHGLDSFJK G HLKSD",
+        "timestamp": "2019-03-11T22:46:50+00:00",
+        "reviewer": {
+          "id": 27,
+          "username": "USMAN@GMAIL.COM"
+        },
+        "rating": [
+          {
+            "id": 38,
+            "vote": true,
+            "ratedby": {
+              "id": 27,
+              "username": "USMAN@GMAIL.COM"
+            }
+          }
+        ]
+      },
+      {
+        "id": 94,
+        "title": "ulhaq",
+        "article": "zainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainab",
+        "timestamp": "2019-04-24T21:47:43+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": []
+      },
+      {
+        "id": 95,
+        "title": "ulhaq",
+        "article": "zainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainab",
+        "timestamp": "2019-04-24T21:53:05+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": []
+      },
+      {
+        "id": 96,
+        "title": "ulhaq",
+        "article": "zainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainab",
+        "timestamp": "2019-04-24T21:53:23+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": []
+      },
+      {
+        "id": 97,
+        "title": "ulhaq",
+        "article": "zainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainab",
+        "timestamp": "2019-04-24T21:53:31+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": []
+      },
+      {
+        "id": 98,
+        "title": "ulhaq",
+        "article": "zainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainab",
+        "timestamp": "2019-04-24T21:56:10+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": []
+      },
+      {
+        "id": 99,
+        "title": "ulhaq",
+        "article": "zainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainab",
+        "timestamp": "2019-04-24T21:56:56+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": []
+      },
+      {
+        "id": 100,
+        "title": "ulhaq",
+        "article": "zainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainabzainab",
+        "timestamp": "2019-04-24T21:57:31+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": [
+          {
+            "id": 43,
+            "vote": true,
+            "ratedby": {
+              "id": 28,
+              "username": "q@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 101,
+        "title": "sabah",
+        "article": "gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg",
+        "timestamp": "2019-05-02T16:06:30+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": [
+          {
+            "id": 44,
+            "vote": true,
+            "ratedby": {
+              "id": 28,
+              "username": "q@gmail.com"
+            }
+          },
+          {
+            "id": 46,
+            "vote": true,
+            "ratedby": {
+              "id": 28,
+              "username": "q@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "title": "arslan1",
+        "article": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghgggggggggggggggggg",
+        "timestamp": "2019-05-02T21:46:19+01:00",
+        "reviewer": {
+          "id": 28,
+          "username": "q@gmail.com"
+        },
+        "rating": [
+          {
+            "id": 41,
+            "vote": true,
+            "ratedby": {
+              "id": 4,
+              "username": "badar@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "title": "arslan",
+        "article": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghgggggggggggggggggg",
+        "timestamp": "2019-05-02T21:42:22+01:00",
+        "reviewer": {
+          "id": 28,
+          "username": "q@gmail.com"
+        },
+        "rating": []
+      },
+      {
+        "id": 107,
+        "title": "arslan3",
+        "article": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghgggggggggggggggggg",
+        "timestamp": "2019-05-02T21:42:31+01:00",
+        "reviewer": {
+          "id": 28,
+          "username": "q@gmail.com"
+        },
+        "rating": []
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "asda",
+    "bookauthor": "asda",
+    "summary": "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+    "isbn": "12312312312",
+    "image": "1b8e78b815aac174cdcdf20538405056.jpeg",
+    "timestamp": "2019-04-11T20:07:30+01:00",
+    "reviews": []
+  },
+  {
+    "id": 81,
+    "title": "zainab",
+    "bookauthor": "zain",
+    "summary": "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+    "isbn": "42312312312",
+    "image": "1b8e78b815aac174cdcdf20538405056.jpeg",
+    "timestamp": "2019-04-23T19:10:54+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 86,
+    "title": "zaianab",
+    "bookauthor": "zainab",
+    "summary": "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+    "isbn": "55559231255",
+    "timestamp": "2019-05-02T15:05:45+01:00",
+    "reviews": []
+  },
+  {
+    "id": 87,
+    "title": "friday",
+    "bookauthor": "friday",
+    "summary": "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+    "isbn": "31231221354",
+    "image": "1b8e78b815aac174cdcdf20538405056.jpeg",
+    "timestamp": "2019-05-03T02:40:01+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 88,
+    "title": "Harry Potter and the Cursed Child – Parts One and Two (Special Rehearsal Edition)",
+    "bookauthor": "J.K. Rowling,John Tiffany,Jack Thorne",
+    "summary": "<p>Based on an original new story by J.K. Rowling, Jack Thorne and John Tiffany, a new play by Jack Thorne, Harry Potter and the Cursed Child is the eighth story in the Harry Potter series and the first official Harry Potter story to be presented on stage. The play received its world premiere in London’s West End on 30th July 2016.<\/p> <p>It was always difficult being Harry Potter and it isn’t much easier now that he is an overworked employee of the Ministry of Magic, a husband and father of three school-age children.<\/p> <p>While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places.<\/p>",
+    "isbn": "1781106940",
+    "image": "26bfc1fabe28c53bb786899bc0565a2c.jpeg",
+    "timestamp": "2019-05-04T22:46:39+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 89,
+    "title": "Females and Harry Potter",
+    "bookauthor": "Ruthann Mayes-Elma",
+    "summary": "Females and Harry Potter is a deconstruction of the representations of women's agency in Harry Potter and the Sorcerer's Stone. Using critical discourse analysis and focusing on five themes (rule following and breaking, intelligence, validating and enabling, mothering, and resistance), Mayes-Elma explores the construction of traditional gender roles in the book. Additionally, the author locates the foundations of feminist epistemology--binary oppositions, gender boundaries, and woman as \"other\"--that is deeply embedded within the book's themes. Traditional gender constructions of both men and women are found throughout the Sorcerer's Stone. Ultimately, the book explores the sexism inherent in the Harry Potter series: a hero and his male friends are the focus and center of activity and the female characters are enablers--at best. Passive and invisible female characters exist only as bodies, \"bound\" by traditional gender conventions; they resist evil, but never gender stereotypes. Mayes-Elma concludes with a discussion of the implications for development of school curricula that enable students to critically deconstruct these texts.",
+    "isbn": "074253779X",
+    "image": "f6a8fcf4580fe29fbecc8dea2e977ec0.jpeg",
+    "timestamp": "2019-05-04T22:50:01+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 90,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "bookauthor": "J.K. Rowling",
+    "summary": "<p>\"Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.\"<br><br>Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!<\/p>",
+    "isbn": "1781100217",
+    "image": "\/tmp\/php8ePIyg",
+    "timestamp": "2019-05-04T23:45:27+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 91,
+    "title": "Heroism in the Harry Potter Series",
+    "bookauthor": "Katrin Berndt,Lena Steveker",
+    "summary": "Taking up the various conceptions of heroism that are conjured in the Harry Potter series, this collection examines the ways fictional heroism in the twenty-first century challenges the idealized forms of a somewhat simplistic masculinity associated with genres like the epic, romance and classic adventure story. The collection's three sections address broad issues related to genre, Harry Potter's development as the central heroic character and the question of who qualifies as a hero in the Harry Potter series. Among the topics are Harry Potter as both epic and postmodern hero, the series as a modern-day example of psychomachia, the series' indebtedness to the Gothic tradition, Harry's development in the first six film adaptations, Harry Potter and the idea of the English gentleman, Hermione Granger's explicitly female version of heroism, adult role models in Harry Potter, and the complex depictions of heroism exhibited by the series' minor characters. Together, the essays suggest that the Harry Potter novels rely on established generic, moral and popular codes to develop new and genuine ways of expressing what a globalized world has applauded as ethically exemplary models of heroism based on responsibility, courage, humility and kindness.",
+    "isbn": "1317122119",
+    "image": "095f984eb55d1f0efe59e433bcd67827.jpeg",
+    "timestamp": "2019-05-04T23:46:23+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": [
+      {
+        "id": 108,
+        "title": "eluwryowequiybr",
+        "article": "uirys lfauysadlufyasldufysald ukfyasldkufysadlk fjyhsadlkjf hsadlk jhf asjdklhflsakjdhf lkjasdhf sadlkjfhasdjfkhsadljkfh",
+        "timestamp": "2019-05-04T23:47:24+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": [
+          {
+            "id": 40,
+            "vote": false,
+            "ratedby": {
+              "id": 4,
+              "username": "badar@gmail.com"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "sunday",
+    "bookauthor": "sunday",
+    "summary": "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+    "isbn": "31201821354",
+    "image": "1b8e78b815aac174cdcdf20538405056.jpeg",
+    "timestamp": "2019-05-05T14:39:43+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 93,
+    "title": "The Ivory Tower and Harry Potter",
+    "bookauthor": "Lana A. Whited",
+    "summary": "<p> <\/p> <p>Now available in paper, <i>The Ivory Tower and Harry Potter<\/i> is the first book-length analysis of J. K. Rowling's work from a broad range of perspectives within literature, folklore, psychology, sociology, and popular culture. A significant portion of the book explores the Harry Potter series' literary ancestors, including magic and fantasy works by Ursula K. LeGuin, Monica Furlong, Jill Murphy, and others, as well as previous works about the British boarding school experience. Other chapters explore the moral and ethical dimensions of Harry's world, including objections to the series raised within some religious circles. In her new epilogue, Lana A. Whited brings this volume up to date by covering Rowling's latest book, <i>Harry Potter and the Order of the Phoenix.<\/i><\/p>",
+    "isbn": "0826215491",
+    "timestamp": "2019-05-05T15:21:07+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 94,
+    "title": "Harry Potter and International Relations",
+    "bookauthor": "Daniel H. Nexon,Iver B. Neumann",
+    "summary": "Why not take seriously the claim that Harry Potter's world intertwines with our own? In this timely yet otherworldly volume, more than a dozen scholars of international relations join hands to demonstrate how this well-loved artifact of popular culture reflects and shapes our own lifeworld. A wide range of historical and sociological sources shows how Harry's world contains aspects of our own. Practices such as quidditch dovetail quite clearly with 'muggle' sports, and the very British-ness of the books has, in translation into languages such as Turkish and Arabic, been transformed to reflect these unique cultures. Chapters on the political economy of the franchise as well as the scholarly problems of studying popular culture frame what is essentially a highly info-taining read.",
+    "isbn": "0742539598",
+    "timestamp": "2019-05-05T15:24:48+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 95,
+    "title": "The Lord of the Rings",
+    "bookauthor": "Ernest Mathijs",
+    "summary": "\"Since their rise to popularity in the 1960s, the Lord of the Rings books have been an enduring cult success, revered by a fiercely faithful and steadily growing fan following which scrupulously guarded their integrity. Since the release of the film trilogy, The Lord of the Rings has become a global brand. Its public presence exceeds that of any other literature and its commercial potential seems limitless, evident not just in the unsurpassed box office succes and critical acclaim for the films, but also in the many fringe benefits and spin-offs.\" \"The Lord of the Rings: Popular Culture in Global Context takes the release of the film trilogy as a point of departure for an overview of the international impact of The Lord of the Rings in a range of cultural environments (the US, the UK, Europe and New Zealand). This anthology analyses the merchandising, box office figures, distribution, critical reception, fan following and cult status of the films, and focuses on how the different faces of the phenomenon, like the trailers, DVD editions, websites, computer games, music, location tours and even its unlikely erotic spin-offs contributed to making The Lord of the Rings the most publicly recognised brand image of the twenty-first century so far. Book jacket.\"--BOOK JACKET.",
+    "isbn": "1904764827",
+    "timestamp": "2019-05-05T15:38:56+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 96,
+    "title": "The Lord of the Rings",
+    "bookauthor": "John Ronald Reuel Tolkien",
+    "summary": "The novel of the century, now with new movie tie-in art, color endpaper maps, flaps, and more.<br> <br> In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages, it fell by chance into the hands of the hobbit Bilbo Baggins. From his fastness in the Dark Tower of Mordor, Sauron's power spread far and wide. He gathered all the Great Rings to him, but always he searched for the One Ring that would complete his dominion.<br> On Bilbo's eleventy-first birthday, he disappeared, bequeathing to his young cousin, Frodo, the Ruling Ring and a perilous quest: to journey across Middle-earth, deep into the shadow of the Dark Lord, and destroy the Ring by casting it into the Cracks of Doom.<br> The Lord of the Rings tells of the great quest undertaken by Frodo and the Fellowship of the Ring: Gandalf the Wizared; the hobbits Merry, Pippin, and Sam; Gimli the Dwarf; Legolas the Elf; Boromir of Gondor; and a tall, mysterious stranger called Strider.",
+    "isbn": "0618343997",
+    "timestamp": "2019-05-05T15:40:18+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 97,
+    "title": "Iron Man",
+    "bookauthor": "Tony Iommi",
+    "summary": "The name 'Tony Iommi' sends shivers down the spines of guitarists around the world. <br><br>As lead guitarist and songwriter of Black Sabbath, Tony Iommi is considered to be one of the most influential musicians of the past four decades and the inventor of heavy metal. From working class, Midlands roots, his unique playing style - a result of a disfiguring hand injury he suffered working in a sheet metal factory - created a dark and gothic sound unlike anything that had been heard before and which captured the mood of its time. Sabbath went on to become a superband, playing to massive audiences around the world and selling millions of records, and Iommi led the life of a rockstar to the fullest - with the scars from all the drug-fuelled nights of excess and wildness to show for it. <br><br>Iron Manis the exclusive account of the life and adventures of one of rock's greatest heroes.",
+    "isbn": "1471112438",
+    "timestamp": "2019-05-05T15:46:29+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 98,
+    "title": "Fantastic Beasts and Where to Find Them: The Original Screenplay",
+    "bookauthor": "J.K. Rowling",
+    "summary": "<p>When Magizoologist Newt Scamander arrives in New York, he intends his stay to be just a brief stopover. However, when his magical case is misplaced and some of Newt's fantastic beasts escape, it spells trouble for everyone...<\/p><br><br><br><p>Inspired by the original Hogwart’s textbook by Newt Scamander, Fantastic Beasts and Where to Find Them: The Original screenplay marks the screenwriting debut of J.K. Rowling, author of the beloved and internationally bestselling Harry Potter books. A feat of imagination and featuring a cast of remarkable characters and magical creatures, this is epic adventure-packed storytelling at its very best. Whether an existing fan or new to the wizarding world, this is a perfect addition for any film lover or reader’s bookshelf.<\/p><br><br><br><p>The film Fantastic Beasts and Where to Find Them will have its theatrical release on 18th November 2016.<\/p>",
+    "isbn": "1781107149",
+    "image": "37c4040237d85cbc8377fe4869d73209.jpeg",
+    "timestamp": "2019-05-05T15:48:00+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 99,
+    "title": "Harry Potter and the Classical World",
+    "bookauthor": "Richard A. Spencer",
+    "summary": "J.K. Rowling has drawn deeply from classical sources to inform and color her <i>Harry Potter<\/i> novels, with allusions ranging from the obvious to the obscure. “Fluffy,” the vicious three-headed dog in <i>Harry Potter and the Sorcerer’s Stone<\/i>, is clearly a repackaging of Cerberus, the hellhound of Greek and Roman mythology. But the significance of Rowling’s quotation from Aeschylus at the front of <i>Harry Potter and the Deathly Hallows <\/i> is a matter of speculation. Her use of classical material is often presented with irony and humor. This extensive analysis of the <i>Harry Potter<\/i> series examines Rowling’s wide range of allusion to classical characters and themes and her varied use of classical languages. Chapters discuss Harry and Narcissus, Dumbledore’s many classical predecessors, Lord Voldemort’s likeness to mythical figures, and magic in <i>Harry Potter<\/i> and classical antiquity—among many topics.",
+    "isbn": "1476621411",
+    "image": "2164dcf7a436443523460100625bd852.jpeg",
+    "timestamp": "2019-05-05T15:50:14+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 100,
+    "title": "Marvel",
+    "bookauthor": "Les Daniels",
+    "summary": "Marvel Comics - full of cosmic battles and complex psychology - are the best-selling comics in America today. For generations, Marvel's moody heroes have captured the imagination of readers with their daring feats and iconoclastic wit. Relive the Marvel Magic in this lively history of the company and its heros - both imaginary and real:",
+    "isbn": "0810981467",
+    "image": "3ed4cf0cb0fc924d4c808b76f6dc5538.jpeg",
+    "timestamp": "2019-05-05T16:11:38+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 101,
+    "title": "sunday",
+    "bookauthor": "sunday",
+    "summary": "sdljfhsa dlkfjshadlfkjshadlkfjshadlkfjs hadlfkjshadlfk jshadlfkjshadlfk jshadlkfjshadlkf jshadlkfjhsadlkjf hsadlkjfhasldkjf hsaldkjf hsaldkjfhsaldkjfhsalkdjfhaslkdjf hasldkjfh salkdjf hasldjfhasdl kjfhasldkjf h",
+    "isbn": "37894359873",
+    "image": "4fac8dde07aa9e6418a533803967310e.jpeg",
+    "timestamp": "2019-05-05T16:12:15+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 102,
+    "title": "friday",
+    "bookauthor": "friday",
+    "summary": "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+    "isbn": "31231121354",
+    "image": "1b8e78b815aac174cdcdf20538405056.jpeg",
+    "timestamp": "2019-05-05T16:20:25+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 103,
+    "title": "zainab",
+    "bookauthor": "zainab",
+    "summary": "sdljhf lasdjkfhlaskjdfhaslkdjfhasl dkjfhalskdj fhasldkjfhsaldkjhf lsadkj hflsakjdhflaskjdhfl akjsdhf lksajdhf lkasjhdflkjasdhflkjasdhf laskjdhflsajkdf hasdklj hflsadkjf hlaskdjhf lasdjkhflajksdhflj k",
+    "isbn": "234234234234",
+    "image": "52776e8b2e2e5a348bfdb0c670ed92a6.jpeg",
+    "timestamp": "2019-05-05T16:22:11+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 104,
+    "title": "Harry Potter: The Creature Vault",
+    "bookauthor": "Jody Revenson",
+    "summary": "<p>Dementors and House-elves, merpeople and Chinese Fireball Dragons—these are just a few of the magical creatures and frightening monsters populating J. K. Rowling's wizarding world. Harry Potter: The Creature Vault is a fascinating look at how this menagerie was brought to life for the blockbuster Harry Potter film series. Detailed profiles of each creature include rare concept illustrations, behind-the-scenes photography, and filmmaking secrets from the Warner Bros. archive. A removable poster picturing each of the creatures and an interactive Eeylops Owl Emporium catalog complete this must-have package.<\/p>",
+    "isbn": "0062374230",
+    "image": "11eea41fa45327847ccfa1cd82c97f39.jpeg",
+    "timestamp": "2019-05-05T16:22:32+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 105,
+    "title": "Harry Potter: The Creature Vault",
+    "bookauthor": "Jody Revenson",
+    "summary": "<p>Dementors and House-elves, merpeople and Chinese Fireball Dragons—these are just a few of the magical creatures and frightening monsters populating J. K. Rowling's wizarding world. Harry Potter: The Creature Vault is a fascinating look at how this menagerie was brought to life for the blockbuster Harry Potter film series. Detailed profiles of each creature include rare concept illustrations, behind-the-scenes photography, and filmmaking secrets from the Warner Bros. archive. A removable poster picturing each of the creatures and an interactive Eeylops Owl Emporium catalog complete this must-have package.<\/p>",
+    "isbn": "00623742301",
+    "image": "3b2204c72b73b5a61ac89365a4954154.jpeg",
+    "timestamp": "2019-05-05T16:23:07+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 106,
+    "title": "zainab2",
+    "bookauthor": "zainab2",
+    "summary": "as;dlkjs d;flkjasd;fkljasd; fkljas;dl kfjsa;dflkjsa;dlfhsaldjfsad jfsad; jkfhalsdkjf hlsadjkhf saldkjfh lasdkjfhlsadkjfhlasdjkhfsuadfh;kewhf lajkshfli ewafhlkjashdlufha lekhsdlkfael ufkhalkefhluieslfkjshaelf khaelk fuhsaelfkjs hdflkajsdhflku eawf",
+    "isbn": "2342342342341",
+    "image": "8f873a7356572841e6ff7995486cf0e8.jpeg",
+    "timestamp": "2019-05-05T16:24:07+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 107,
+    "title": "fgfdg",
+    "bookauthor": "dfgdfg",
+    "summary": "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+    "isbn": "31201661354",
+    "image": "1b8e78b815aac174cdcdf20538405056.jpeg",
+    "timestamp": "2019-05-05T16:57:27+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": [
+      {
+        "id": 109,
+        "title": "aaaarrrrslangg",
+        "article": "asdasdlsdfa hlasdkjhflsadkjhflaskjdhflsajdkhf lsakjdhf lsakdjhflaskdjhflasdkjfhasdlkjfh asldfh sadlkjf",
+        "timestamp": "2019-05-05T18:13:06+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": []
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Song of Spider-Man",
+    "bookauthor": "Glen Berger",
+    "summary": "“One of the best literary works of this year” (<i>Miami Herald-Tribune<\/i>): The true story of a theatrical dream—or nightmare—come true…the making of the Spider-Man musical.<br><br>As you might imagine, writing a Broadway musical has its challenges. But it turns out there are challenges one can’t begin to imagine when collaborating with two rock legends and a superstar director to stage the biggest, most expensive production in theater history. Renowned director Julie Taymor picked playwright Glen Berger to cowrite the book for a $25 million Spider-Man musical. Together—along with U2’s Bono and Edge—they would shape a work that was technically daring and emotionally profound, with a story fueled by the hero’s quest for love…and the villains’ quest for revenge. Or at least, that’s what they’d hoped for.<br> <br>But when charismatic producer Tony Adams died suddenly, the show began to lose its footing. Soon the budget was ballooning, financing was evaporating, and producers were jumping ship or getting demoted. And then came the injuries. And then came word-of-mouth about the show itself. What followed was a pageant of foul-ups, falling-outs, ever-more harrowing mishaps, and a whole lot of malfunctioning spider legs. This “circus-rock-and-roll-drama,” with its $65 million price tag, had become more of a spectacle than its creators ever wished for. During the show’s unprecedented seven months of previews, the company’s struggles to reach opening night inspired breathless tabloid coverage and garnered international notoriety.<br> <br>Through it all, Berger observed the chaos with his signature mix of big ambition and self-deprecating humor.",
+    "isbn": "1451684584",
+    "image": "7b146fb32f9d5699d2fbe51366c19665.jpeg",
+    "timestamp": "2019-05-05T20:40:52+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 110,
+    "title": "Picturing Tolkien",
+    "bookauthor": "Janice M. Bogstad,Philip E. Kaveny",
+    "summary": "This group of new critical essays offers multidisciplinary analysis of director Peter Jackson’s spectacularly successful adaptations of J.R.R. Tolkien’s <i>Lord of the Rings<\/i> trilogy: <i>The Fellowship of the Ring<\/i> (2001), <i>The Two Towers<\/i> (2002) and <i>The Return of the King<\/i> (2003). Part One of the collection, “Techniques of Structure and Story,” compares and contrasts the organizational principles of the books and films. Part Two, “Techniques of Character and Culture,” focuses on the methods used to transform the characters and settings of Tolkien’s narrative into the personalities and places visualized on screen. Each of the sixteen essays includes extensive notes and a separate bibliography. Instructors considering this book for use in a course may request an examination copy here.",
+    "isbn": "078648473X",
+    "image": "26e36b8909fb0c6ee6403d7b5e52b2d1.jpeg",
+    "timestamp": "2019-05-05T20:49:34+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 111,
+    "title": "lzlzlz",
+    "bookauthor": "bookauthor",
+    "summary": "summarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummary",
+    "isbn": "12331212323",
+    "timestamp": "2019-05-05T21:41:25+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 112,
+    "title": "zainwuvwuv",
+    "bookauthor": "bookauthor",
+    "summary": "summarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummary",
+    "isbn": "12330202323",
+    "timestamp": "2019-05-05T21:43:17+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 113,
+    "title": "wuvnnnnnnnnnnnwuv",
+    "bookauthor": "bookauthor",
+    "summary": "summarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummary",
+    "isbn": "12330102300",
+    "image": "1b8e78b815aac174cdcdf20538405056.jpeg",
+    "timestamp": "2019-05-05T21:50:53+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 114,
+    "title": "Becoming",
+    "bookauthor": "Michelle Obama",
+    "summary": "<b>An intimate, powerful, and inspiring memoir by the former First Lady of the United States<\/b><br>  <br><b>#1 <i>NEW YORK TIMES<\/i> BESTSELLER • OPRAH’S BOOK CLUB PICK • NAACP IMAGE AWARD WINNER<\/b><br><br> In a life filled with meaning and accomplishment, Michelle Obama has emerged as one of the most iconic and compelling women of our era. As First Lady of the United States of America—the first African American to serve in that role—she helped create the most welcoming and inclusive White House in history, while also establishing herself as a powerful advocate for women and girls in the U.S. and around the world, dramatically changing the ways that families pursue healthier and more active lives, and standing with her husband as he led America through some of its most harrowing moments. Along the way, she showed us a few dance moves, crushed Carpool Karaoke, and raised two down-to-earth daughters under an unforgiving media glare. <br>  <br> In her memoir, a work of deep reflection and mesmerizing storytelling, Michelle Obama invites readers into her world, chronicling the experiences that have shaped her—from her childhood on the South Side of Chicago to her years as an executive balancing the demands of motherhood and work, to her time spent at the world’s most famous address. With unerring honesty and lively wit, she describes her triumphs and her disappointments, both public and private, telling her full story as she has lived it—in her own words and on her own terms. Warm, wise, and revelatory, <i>Becoming<\/i> is the deeply personal reckoning of a woman of soul and substance who has steadily defied expectations—and whose story inspires us to do the same.",
+    "isbn": "1524763152",
+    "image": "d7ef44a5ddba826bf06106a402f58fac.jpeg",
+    "timestamp": "2019-05-06T03:51:50+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 115,
+    "title": "Playing Harry Potter",
+    "bookauthor": "Lisa S. Brenner",
+    "summary": "Through classroom activities, wizard rock concerts, and organizations like the Harry Potter Alliance, Harry Potter fans are using creativity to positively impact the world. This collection of essays and interviews examines how playful fandom—from fanfiction to Muggle quidditch, cosplay, role-playing games, and even Harry Potter burlesque—not only reimagines the canon but also challenges consumerism, questions notions of identity, and fosters participatory culture. The contributors explore issues applicable to fan studies and performance studies at large, such as the role of performance, the nature of community, and questions of representation and ownership in the digital age. Presented in three parts, the essays discuss discrepancies between sanctioned versions of Harry Potter and fan creations, the reenactment and reinterpretation of the original narrative in fan performance, and collaborative and participatory performances that break down the boundaries between actors and audiences.",
+    "isbn": "1476621365",
+    "image": "bedcb1b7cf68c9c1aefaa6cf56ca40e9.jpeg",
+    "timestamp": "2019-05-06T15:21:15+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": [
+      {
+        "id": 110,
+        "title": "hgjgh",
+        "article": "dgfdhd jdg jf gf  hg  hfjhggfhgfhfghfghfghfghfg hgfh fgf h",
+        "timestamp": "2019-05-06T15:21:42+01:00",
+        "reviewer": {
+          "id": 4,
+          "username": "badar@gmail.com"
+        },
+        "rating": [
+          {
+            "id": 45,
+            "vote": true,
+            "ratedby": {
+              "id": 28,
+              "username": "q@gmail.com"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Reading Harry Potter",
+    "bookauthor": "David G. Epstein",
+    "summary": "<p>J. K. Rowling achieved astounding commercial success with her series of novels about Harry Potter, the boy-wizard who finds out about his magical powers on the morning of his eleventh birthday. The books' incredible popularity, and the subsequent likelihood that they are among this generation's most formative narratives, call for critical exploration and study to interpret the works' inherent tropes and themes. The essays in this collection assume that Rowling's works should not be relegated to the categories of pulp fiction or children's trends, which would deny their certain influence on the intellectual, emotional, and psychosocial development of today's children. The variety of contributions allows for a range of approaches and interpretive methods in exploring the novels, and reveals the deeper meanings and attitudes towards justice, education, race, foreign cultures, socioeconomic class, and gender.<\/p><p><\/p><p>Following an introductory discussion of the Harry Potter phenomenon are essays considering the psychological and social-developmental experiences of children as mirrored in Rowling's novels. Next, the works' literary and historical contexts are examined, including the European fairy tale tradition, the British abolitionist movement, and the public-school story genre. A third section focuses on the social values underlying the Potter series and on issues such as morality, the rule of law, and constructions of bravery.<\/p>",
+    "isbn": "0313320675",
+    "image": "eddaba37e0fae1ae08d3fc2282a1292f.jpeg",
+    "timestamp": "2019-05-06T20:35:40+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 117,
+    "title": "Baptizing Harry Potter",
+    "bookauthor": "Luke Bell",
+    "summary": "The scope and tragedy of the thing : the structure of the series -- More things in heaven and earth : going beyond the normal -- As if a man were author of himself : good against evil -- Be absolute for death : life and death -- Power is made perfect in weakness : power and weakness -- To lay down one's life for one's friends : love and sacrifice -- It is essential that you understand this : freedom and determination -- A pretty boring life : the hidden and the ostentatious -- Telling it like it is : the struggle for truth -- They will see God : purity of heart and purity of blood.",
+    "isbn": "1616431156",
+    "image": "0efc8fb2564d3b2c40f099fe42f3377f.jpeg",
+    "timestamp": "2019-05-07T16:55:45+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 118,
+    "title": "The Psychology of Harry Potter",
+    "bookauthor": "Neil Mulholland",
+    "summary": "Harry Potter has provided a portal to the wizarding world for millions of readers, but an examination of Harry, his friends and his enemies will take us on yet another journey: through the psyche of the Muggle (and wizard!) mind. The twists and turns of the series, as well as the psychological depth and complexity of J. K. Rowling’s characters, have kept fans enthralled with and puzzling over the many mysteries that permeate Hogwarts and beyond: Do the Harry Potter books encourage disobedience? Why is everyone so fascinated by Professor Lupin? What exactly will Harry and his friends do when they finally pass those N.E.W.T.s? Do even wizards live by the ticking of the clock? Is Harry destined to end up alone? And why did it take Ron and Hermione so long to get together? Now, in The Psychology of Harry Potter, leading psychologists delve into the ultimate Chamber of Secrets, analyzing human mind and motivation by examining the themes and characters that make the Harry Potter books the bestselling fantasy series of all time. Grab a spot on the nearest couch, and settle in for some fresh revelations about our favorite young wizard!",
+    "isbn": "1935251376",
+    "image": "111d45179a284cf43db110cbf4c8db09.jpeg",
+    "timestamp": "2019-05-08T16:10:04+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 119,
+    "title": "Marvel Graphic Novels and Related Publications",
+    "bookauthor": "Robert G. Weiner",
+    "summary": "This work provides an extensive guide for students, fans, and collectors of Marvel Comics. Focusing on Marvel’s mainstream comics, the author provides a detailed description of each comic along with a bibliographic citation listing the publication’s title, writers\/artists, publisher, ISBN (if available), and a plot synopsis. One appendix provides a comprehensive alphabetical index of Marvel and Marvel\u2013related publications to 2005, while two other appendices provide selected lists of Marvel–related game books and unpublished Marvel titles.",
+    "isbn": "0786451157",
+    "image": "3f6def1ee6bef1f40eb977ba35fd9f76.jpeg",
+    "timestamp": "2019-05-08T16:12:01+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 120,
+    "title": "navib",
+    "bookauthor": "naiv",
+    "summary": "summarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummary",
+    "isbn": "12330989323",
+    "image": "26e36b8909fb0c6ee6403d7b5e52b2d1.jpeg",
+    "timestamp": "2019-05-08T19:52:03+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  },
+  {
+    "id": 121,
+    "title": "navgfffffffffffib",
+    "bookauthor": "ffffffffnaiv",
+    "summary": "summarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummarysummary",
+    "isbn": "123309893423",
+    "image": "26e36b8909fb0c6ee6403d7b5e52b2d1.jpeg",
+    "timestamp": "2019-05-08T20:00:13+01:00",
+    "publisher": {
+      "id": 4,
+      "username": "badar@gmail.com"
+    },
+    "reviews": []
+  }
+]

@@ -94,11 +94,8 @@ class GoogleApiController extends Controller
 
     public function addingBookAction(Request $request, $id)
     {
-
         $book = new Book();
-
         $googleBook = $this->getOneBook($id);
-
       //  var_dump($googleBook->volumeInfo->imageLinks->medium);
         $book->setTitle($googleBook->volumeInfo->title);
         $book->setBookauthor(join(',',$googleBook->volumeInfo->authors));
@@ -125,13 +122,8 @@ class GoogleApiController extends Controller
             $fileName = $this->generateUniqueFileName();
             $path = $this->saveImageFile($url, $fileName);
             $fileNameExt = $fileName . ".jpeg";
-         //   $book->setImageFile(new File($path));
-
-
-
             $book->setImage($fileNameExt);
-
-            // tell the entity manager we want to persist this entity
+      // tell the entity manager we want to persist this entity
             $em->persist($book);
             // commit all changes
             $em->flush();

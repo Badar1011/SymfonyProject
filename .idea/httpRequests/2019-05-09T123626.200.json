@@ -1,0 +1,14 @@
+{
+  "id": 81,
+  "title": "zainab",
+  "bookauthor": "zain",
+  "summary": "A clash between good and evil awaits as young Harry (Daniel Radcliffe), Ron (Rupert Grint) and Hermione (Emma Watson) prepare for a final battle against Lord Voldemort (Ralph Fiennes). Harry has grown into a steely lad on a mission to rid the world of evil. The friends must search for the Horcruxes that keep the dastardly wizard immortal. Harry and Voldemort meet at Hogwarts Castle for an epic showdown where the forces of darkness may finally meet their match.",
+  "isbn": "42312312312",
+  "image": "1b8e78b815aac174cdcdf20538405056.jpeg",
+  "timestamp": "2019-04-23T19:10:54+01:00",
+  "publisher": {
+    "id": 4,
+    "username": "badar@gmail.com"
+  },
+  "reviews": []
+}

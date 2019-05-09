@@ -1,0 +1,121 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "Call to a member function hasRole() on null",
+        "class": "Symfony\\Component\\Debug\\Exception\\FatalThrowableError",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Bundle\/FrameworkBundle\/Controller\/ControllerTrait.php",
+            "line": 463,
+            "args": []
+          },
+          {
+            "namespace": "Symfony\\Bundle\\FrameworkBundle\\Controller",
+            "short_class": "Controller",
+            "class": "Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller",
+            "type": "->",
+            "function": "getStaff",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/src\/Book\/ReviewBundle\/Controller\/BookAPIController.php",
+            "line": 64,
+            "args": []
+          },
+          {
+            "namespace": "Book\\ReviewBundle\\Controller",
+            "short_class": "BookAPIController",
+            "class": "Book\\ReviewBundle\\Controller\\BookAPIController",
+            "type": "->",
+            "function": "deleteBookAction",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 151,
+            "args": [
+              [
+                "string",
+                "81"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/HttpKernel.php",
+            "line": 68,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Component\/HttpKernel\/Kernel.php",
+            "line": 200,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php",
+            "line": 30,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "require",
+            "file": "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/vendor\/symfony\/symfony\/src\/Symfony\/Bundle\/WebServerBundle\/Resources\/router.php",
+            "line": 42,
+            "args": [
+              [
+                "string",
+                "\/home\/badar\/Desktop\/AdvWeb2\/symblog\/web\/app_dev.php"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
